@@ -173,7 +173,7 @@
       "name": "English",
       "path": "lang/en.json"
     }
-  ]
+  ],
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
