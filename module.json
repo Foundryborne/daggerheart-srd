@@ -1,0 +1,182 @@
+{
+  "id": "daggerheart-srd",
+  "title": "Daggerheart SRD Content",
+  "description": "Daggerheart SRD Content as a module.",
+  "authors": [
+    {
+    "id": "cptn-cosmo",
+    "discord": "cptn-cosmo"
+    }
+  ],
+  "relationships": {
+    "systems": [{
+        "id": "daggerheart",
+        "type": "system",
+        "manifest": "https://github.com/Foundryborne/daggerhear/releases/download/1.0.0/system.json",
+        "compatibility": {
+        "verified": "1.0.0"
+        }
+    }]
+  },
+  "packs": [
+        {
+            "name": "classes",
+            "label": "Classes",
+            "system": "daggerheart",
+            "path": "packs/classes.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "class-features",
+            "label": "Class Features",
+            "system": "daggerheart",
+            "path": "packs/class-features.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "subclasses",
+            "label": "Subclasses",
+            "system": "daggerheart",
+            "path": "packs/subclasses.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "domains",
+            "label": "Domains",
+            "system": "daggerheart",
+            "path": "packs/domains.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "ancestries",
+            "label": "Ancestry",
+            "system": "daggerheart",
+            "path": "packs/ancestries.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "communities",
+            "label": "Communities",
+            "system": "daggerheart",
+            "path": "packs/communities.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "community-features",
+            "label": "Community Features",
+            "system": "daggerheart",
+            "path": "packs/community-features.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "weapons",
+            "label": "Weapons",
+            "system": "daggerheart",
+            "path": "packs/items/weapons.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "armors",
+            "label": "Armors",
+            "system": "daggerheart",
+            "path": "packs/items/armors.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "consumables",
+            "label": "Consumables",
+            "system": "daggerheart",
+            "path": "packs/items/consumables.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "general-items",
+            "label": "General Items",
+            "system": "daggerheart",
+            "path": "packs/items/general.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "adversaries",
+            "label": "Adversaries",
+            "system": "daggerheart",
+            "path": "packs/adversaries.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "environments",
+            "label": "Environments",
+            "system": "daggerheart",
+            "path": "packs/environments.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Daggerheart SRD",
+            "sorting": "m",
+            "color": "#08718c",
+            "packs": ["adversaries", "environments"],
+            "folders": [
+                {
+                    "name": "Character Options",
+                    "sorting": "m",
+                    "color": "#000000",
+                    "packs": [
+                        "classes",
+                        "class-features",
+                        "subclasses",
+                        "domains",
+                        "ancestries",
+                        "communities",
+                        "community-features"
+                    ]
+                },
+                {
+                    "name": "Items",
+                    "sorting": "m",
+                    "color": "#000000",
+                    "packs": ["weapons", "armors", "consumables", "general-items"]
+                }
+            ]
+        }
+    ],
+    "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  }
+}
