@@ -1,0 +1,138 @@
+{
+  "folder": "OzZ4UX9B6eNEzF49",
+  "name": "Call of the Brave",
+  "type": "subclass",
+  "_id": "URAlRq9vPW1Jyh0v",
+  "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+  "system": {
+    "description": "<p>Play the Call of the Brave if you want to use the might of your enemies to fuel your own power.</p>",
+    "spellcastingTrait": null,
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "38T0j6u6ubCJkAbu",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Courage",
+          "img": "icons/skills/melee/unarmed-punch-fist.webp",
+          "description": "<p>When you fail a roll with Fear, you gain a Hope.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "YI4Z5Uoqhc7JvbrB",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Battle Ritual",
+          "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+          "description": "<p>Once per long rest, before you attempt something incredibly dangerous or face off against a foe who clearly outmatches you, describe what ritual you perform or preparations you make. When you do, clear 2 Stress and gain 2 Hope.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "longRest"
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "XuUXZOylwf7jxa4D",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Rise to the Challenge",
+          "img": "icons/skills/melee/hand-grip-staff-teal.webp",
+          "description": "<p>You are vigilant in the face of mounting danger. While you have 2 or fewer Hit Points unmarked, you can roll a [[d20]] as your Hope Die.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "UeaEdtStBoDtg8VH",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Camaraderie",
+          "img": "icons/skills/social/diplomacy-unity-alliance.webp",
+          "description": "<p>Your unwavering bravery is a rallying point for your allies. You can initiate a Tag Team Roll one additional time per session. Additionally, when an ally initiates a Tag Team Roll with you, they only need to spend 2 Hope to do so.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751391775497,
+    "modifiedTime": 1751391980600,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!URAlRq9vPW1Jyh0v"
+}

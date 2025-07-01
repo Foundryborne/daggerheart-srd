@@ -1,0 +1,286 @@
+{
+  "folder": "GECczaEI6KI9W7B7",
+  "name": "Stalwart",
+  "type": "subclass",
+  "_id": "Nqr4zfQJvEgJzaTH",
+  "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+  "system": {
+    "description": "<p>Play the Stalwart if you want to take heavy blows and keep fighting.</p>",
+    "spellcastingTrait": null,
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "LMgNxq8kHGKMrxxh",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Unwavering",
+          "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+          "description": "<p>Gain a permanent +1 bonus to your damage thresholds.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [
+            {
+              "_id": "xsx9bwfdRLguj9Ux",
+              "onSave": false
+            }
+          ],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "nTVHugdbeBAMzoFU",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Iron Will",
+          "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+          "description": "<p>When you take physical damage, you can mark an additional Armor Slot to reduce the severity.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "TBc1ysdYPHp9aqiu",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Unrelenting",
+          "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal-purple.webp",
+          "description": "<p>Gain a permanent +2 bonus to your damage thresholds.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "DOQuRBlBvYp7ikmp",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Partners-in-Arms",
+          "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+          "description": "<p>When an ally within Very Close range takes damage, you can mark an Armor Slot to reduce the severity by one threshold.</p>",
+          "chatDisplay": true,
+          "actionType": "reaction",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": "friendly",
+            "amount": 1
+          },
+          "range": "veryClose"
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "GWIdwJiJIpIEzLBe",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Undaunted",
+          "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-teal-purple.webp",
+          "description": "<p>Gain a permanent +3 bonus to your damage thresholds.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [
+            {
+              "_id": "ymhBylh0AlKnVIdr",
+              "onSave": false
+            }
+          ],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "EiU2VA1dTNLcbb5F",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Loyal Protector",
+          "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
+          "description": "<p>When an ally within Close range has 2 or fewer Hit Points and would take damage, you can mark a Stress to sprint to their side and take the damage instead.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "type": "stress",
+              "value": 1,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": "friendly",
+            "amount": 1
+          },
+          "range": "close"
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [
+    {
+      "name": "Stalwart",
+      "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+      "origin": "Compendium.daggerheart-srd.subclasses.Item.Nqr4zfQJvEgJzaTH",
+      "transfer": false,
+      "_id": "xsx9bwfdRLguj9Ux",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "value": "",
+          "mode": 2
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751385930232,
+        "modifiedTime": 1751385936981,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!Nqr4zfQJvEgJzaTH.xsx9bwfdRLguj9Ux"
+    },
+    {
+      "name": "Stalwart",
+      "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+      "origin": "Compendium.daggerheart-srd.subclasses.Item.Nqr4zfQJvEgJzaTH",
+      "transfer": false,
+      "_id": "ymhBylh0AlKnVIdr",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "value": "",
+          "mode": 2
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751386134296,
+        "modifiedTime": 1751386137162,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!Nqr4zfQJvEgJzaTH.ymhBylh0AlKnVIdr"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751385853564,
+    "modifiedTime": 1751386215697,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!Nqr4zfQJvEgJzaTH"
+}

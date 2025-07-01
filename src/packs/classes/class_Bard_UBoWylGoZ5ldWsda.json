@@ -1,0 +1,189 @@
+{
+  "name": "Bard",
+  "type": "class",
+  "_id": "UBoWylGoZ5ldWsda",
+  "img": "modules/daggerheart-srd/artwork/icons/classes/bard.png",
+  "system": {
+    "description": "<div class=\"primer-description-class MuiBox-root css-0\"><p>As a bard, you know how to get people to talk, bring attention to yourself, and use words or music to influence the world around you.</p></div>",
+    "domains": [
+      "grace",
+      "codex"
+    ],
+    "classItems": [],
+    "hitPoints": 5,
+    "evasion": 10,
+    "hopeFeatures": [
+      {
+        "_id": "v0EP3fOO6G2HksL2",
+        "systemPath": "hopeFeatures",
+        "type": "effect",
+        "name": "Make a Scene",
+        "img": "modules/daggerheart-srd/artwork/icons/classes/bard.png",
+        "description": "<p>Make a Scene: Spend 3 Hope to temporarily Distract a target within Close range, giving them a -2 penalty to their Difficulty.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 3,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [
+          {
+            "_id": "yfvRp8iGwGL0gZur",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "classFeatures": [
+      {
+        "_id": "IM310LIII3BSBvXS",
+        "systemPath": "classFeatures",
+        "type": "effect",
+        "name": "Rally",
+        "img": "modules/daggerheart-srd/artwork/icons/classes/bard.png",
+        "description": "<p>Once per session, describe how you rally the party and give yourself and each of your allies a Rally Die. At level 1, your Rally Die is a d6. A PC can spend their Rally Die to roll it, adding the result to their action roll, reaction roll, damage roll, or to clear a number of Stress equal to the result. At the end of each session, clear all unspent Rally Dice.</p><p>At level 5, your Rally Die increases to a d8.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "recovery": "session"
+        },
+        "effects": [
+          {
+            "_id": "9yHiwm98a9vOacr0",
+            "onSave": false
+          }
+        ],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "subclasses": [
+      "Compendium.daggerheart-srd.subclasses.Item.JOJJs67TLkZ4bqFV",
+      "Compendium.daggerheart-srd.subclasses.Item.bPALR0JVqLP2z3Cj"
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": []
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": -1,
+        "finesse": 1,
+        "instinct": 0,
+        "presence": 2,
+        "knowledge": 1
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false
+  },
+  "effects": [
+    {
+      "name": "Bard",
+      "img": "modules/daggerheart-srd/artwork/icons/classes/bard.png",
+      "origin": "Compendium.daggerheart-srd.classes.Item.UBoWylGoZ5ldWsda",
+      "transfer": false,
+      "_id": "yfvRp8iGwGL0gZur",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751383942027,
+        "modifiedTime": 1751383942027,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!UBoWylGoZ5ldWsda.yfvRp8iGwGL0gZur"
+    },
+    {
+      "name": "Bard",
+      "img": "modules/daggerheart-srd/artwork/icons/classes/bard.png",
+      "origin": "Compendium.daggerheart-srd.classes.Item.UBoWylGoZ5ldWsda",
+      "transfer": false,
+      "_id": "9yHiwm98a9vOacr0",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751384028235,
+        "modifiedTime": 1751384028235,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!UBoWylGoZ5ldWsda.9yHiwm98a9vOacr0"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751380227261,
+    "modifiedTime": 1751384028260,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!UBoWylGoZ5ldWsda"
+}

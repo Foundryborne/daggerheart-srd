@@ -1,0 +1,183 @@
+{
+  "folder": "GdwNrxosxgFCMwUJ",
+  "name": "Wordsmith",
+  "type": "subclass",
+  "_id": "bPALR0JVqLP2z3Cj",
+  "img": "modules/daggerheart-srd/artwork/icons/subclasses/wordsmith.png",
+  "system": {
+    "description": "<p>Play the Wordsmith if you want to use clever wordplay and captivate crowds.</p>",
+    "spellcastingTrait": "presence",
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "h40RHUSbeB1nePxD",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Rousing Speech",
+          "img": "modules/daggerheart-srd/artwork/icons/subclasses/wordsmith.png",
+          "description": "<p>Rousing Speech: Once per long rest, you can give a heartfelt, inspiring speech. All allies within Far range clear 2 Stress.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "longRest"
+          },
+          "effects": [],
+          "target": {
+            "type": "friendly",
+            "amount": null
+          },
+          "range": "far"
+        },
+        {
+          "_id": "34cTcNnegJ4fWfuO",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Heart of a Poet",
+          "img": "modules/daggerheart-srd/artwork/icons/subclasses/wordsmith.png",
+          "description": "<p>Heart of a Poet: After you make an action roll to impress, persuade, or offend someone, you can spend a Hope to add a d4 to the roll.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "type": "hope",
+              "value": 1,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "longRest"
+          },
+          "effects": [
+            {
+              "_id": "w2oCZ1miHK6O2w7J",
+              "onSave": false
+            }
+          ],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "mUzcS7fUcR1MQvyi",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Eloquent",
+          "img": "modules/daggerheart-srd/artwork/icons/subclasses/wordsmith.png",
+          "description": "<p>Eloquent: Your moving words boost morale. Once per session, when you encourage an ally, you can do one of the following:</p><ul><li><p>Allow them to find a mundane object or tool they need.</p></li><li><p>Help an Ally without spending Hope</p></li><li><p>Give them an additional downtime move during their next rest.</p></li></ul>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "session"
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "FtWkKVEksrjNSQCg",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Epic Poetry",
+          "img": "modules/daggerheart-srd/artwork/icons/subclasses/wordsmith.png",
+          "description": "<p>Epic Poetry: Your Rally Die increases to a d10. Additionally, when you Help an Ally, you can narrate the moment as if you were writing the tale of their heroism in a memoir. When you do, roll a d10 as your advantage die.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [
+    {
+      "name": "Wordsmith",
+      "img": "modules/daggerheart-srd/artwork/icons/subclasses/wordsmith.png",
+      "origin": "Compendium.daggerheart-srd.subclasses.Item.bPALR0JVqLP2z3Cj",
+      "transfer": false,
+      "_id": "w2oCZ1miHK6O2w7J",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751383463147,
+        "modifiedTime": 1751383463147,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!bPALR0JVqLP2z3Cj.w2oCZ1miHK6O2w7J"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751381992461,
+    "modifiedTime": 1751383848343,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!bPALR0JVqLP2z3Cj"
+}

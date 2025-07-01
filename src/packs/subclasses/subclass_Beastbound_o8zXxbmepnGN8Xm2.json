@@ -1,0 +1,155 @@
+{
+  "folder": "cTmpeni3Jg55NkX4",
+  "name": "Beastbound",
+  "type": "subclass",
+  "_id": "o8zXxbmepnGN8Xm2",
+  "img": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
+  "system": {
+    "description": "<p>Play the Beastbound if you want to form a deep bond with an animal ally.</p>",
+    "spellcastingTrait": "agility",
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "QLUv9OBwneFNB3u2",
+          "systemPath": "foundationFeature.actions",
+          "type": "summon",
+          "name": "Companion",
+          "img": "icons/magic/nature/wolf-paw-glow-teal-blue.webp",
+          "description": "<p>You have an animal companion of your choice (at the GM’s discretion). They stay by your side unless you tell them otherwise.</p><p>Take the Ranger Companion sheet. When you level up your character, choose a level-up option for your companion from this sheet as well.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "documentUUID": null
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "J6bIapV0EOu7ZNOd",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Expert Training",
+          "img": "icons/magic/nature/wolf-paw-glow-teal-blue.webp",
+          "description": "<p>Choose an additional level-up option for your companion.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "W1NubWW6UHY3jK0L",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Battle-Bonded",
+          "img": "icons/magic/nature/wolf-paw-glow-orange.webp",
+          "description": "<p>When an adversary attacks you while they’re within your companion’s Melee range, you gain a +2 bonus to your Evasion against the attack.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "VlYG0uYI8mY04Nlp",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Advanced Training",
+          "img": "icons/magic/nature/wolf-paw-glow-teal-blue.webp",
+          "description": "<p>Choose two additional level-up options for your companion.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "iatZ4B9imjB1DgOm",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Loyal Friend",
+          "img": "icons/magic/nature/wolf-paw-glow-large-purple-teal.webp",
+          "description": "<p>Once per long rest, when the damage from an attack would mark your companion’s last Stress or your last Hit Point and you’re within Close range of each other, you or your companion can rush to the other’s side and take that damage instead.</p>",
+          "chatDisplay": true,
+          "actionType": "reaction",
+          "cost": [],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "longRest"
+          },
+          "effects": [],
+          "target": {
+            "type": "friendly",
+            "amount": 1
+          },
+          "range": "self"
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751387550932,
+    "modifiedTime": 1751387878041,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!o8zXxbmepnGN8Xm2"
+}

@@ -1,0 +1,187 @@
+{
+  "folder": "8fx2IqJphzGyrZbx",
+  "name": "Winged Sentinel",
+  "type": "subclass",
+  "_id": "TOM0xeKAV4POZawN",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p>Play the Winged Sentinel if you want to take flight and strike crushing blows from the sky.</p>",
+    "spellcastingTrait": "strength",
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "aaDkSYaTalQmRlhn",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Wings of Light",
+          "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+          "description": "<p>You can fly. While flying, you can do the following:</p><ul><li><p>Mark a Stress to pick up and carry another willing creature approximately your size or smaller.</p></li><li><p>Spend a Hope to deal an extra [[1d8]] damage on a successful attack.</p></li></ul>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "bZI1ikSiCSiZNyhr",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Ethereal Visage",
+          "img": "icons/magic/holy/saint-glass-portrait-halo.webp",
+          "description": "<p>Your supernatural visage strikes awe and fear. While flying, you have advantage on Presence Rolls. When you succeed with Hope on a Presence Roll, you can remove a Fear from the GM’s Fear pool instead of gaining Hope.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "Eb17hxedkPvWcdrX",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Ascendant",
+          "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+          "description": "<p>Gain a permanent +4 bonus to your Severe damage threshold.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [
+            {
+              "_id": "UCMD9vEBVX2bzk4j",
+              "onSave": false
+            }
+          ],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "JE1iHfGING0LbYzp",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Power of the Gods",
+          "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+          "description": "<p>While flying, you deal an extra [[1d12]] damage instead of 1d8 from your “Wings of Light” feature.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [
+    {
+      "name": "Winged Sentinel",
+      "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+      "origin": "Compendium.daggerheart-srd.subclasses.Item.TOM0xeKAV4POZawN",
+      "transfer": false,
+      "_id": "UCMD9vEBVX2bzk4j",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "value": "",
+          "mode": 2
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751390160483,
+        "modifiedTime": 1751390162649,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!TOM0xeKAV4POZawN.UCMD9vEBVX2bzk4j"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751389894279,
+    "modifiedTime": 1751390221664,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!TOM0xeKAV4POZawN"
+}

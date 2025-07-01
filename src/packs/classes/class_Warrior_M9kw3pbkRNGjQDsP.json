@@ -1,0 +1,136 @@
+{
+  "name": "Warrior",
+  "type": "class",
+  "_id": "M9kw3pbkRNGjQDsP",
+  "img": "modules/daggerheart-srd/artwork/icons/classes/warrior.png",
+  "system": {
+    "description": "<div class=\"primer-description-class MuiBox-root css-0\"><p>As a warrior, you run into battle without hesitation or caution, knowing you can strike down whatever enemy stands in your path.</p></div>",
+    "domains": [
+      "blade",
+      "bone"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 11,
+    "hopeFeatures": [
+      {
+        "_id": "dOhclJgLY9z7lm3v",
+        "systemPath": "hopeFeatures",
+        "type": "effect",
+        "name": "No Mercy",
+        "img": "icons/skills/melee/shield-damaged-broken-blue.webp",
+        "description": "<p>Spend 3 Hope to gain a +1 bonus to your attack rolls until your next rest.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 3,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "classFeatures": [
+      {
+        "_id": "DMGx0mHBMDIbDAa2",
+        "systemPath": "classFeatures",
+        "type": "effect",
+        "name": "Attack of Opportunity",
+        "img": "icons/skills/melee/strike-dagger-white-orange.webp",
+        "description": "<p>If an adversary within Melee range attempts to leave that range, make a reaction roll using a trait of your choice against their Difficulty . Choose one effect on a success, or two if you critically succeed:</p><ul><li><p>They can’t move from where they are.</p></li><li><p>You deal damage to them equal to your primary weapon’s damage.</p></li><li><p>You move with them.</p></li></ul>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "2ndPGqV0NAqUGZX4",
+        "systemPath": "classFeatures",
+        "type": "effect",
+        "name": "Combat Training",
+        "img": "icons/skills/melee/hand-grip-hammer-spiked-blue.webp",
+        "description": "<p>You ignore burden when equipping weapons. When you deal physical damage, you gain a bonus to your damage roll equal to your level.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "subclasses": [
+      "Compendium.daggerheart-srd.subclasses.Item.URAlRq9vPW1Jyh0v",
+      "Compendium.daggerheart-srd.subclasses.Item.BizBH5VB8EBRTouE"
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": []
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 2,
+        "strength": 1,
+        "finesse": 0,
+        "instinct": 1,
+        "presence": -1,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751381473554,
+    "modifiedTime": 1751392284900,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!M9kw3pbkRNGjQDsP"
+}

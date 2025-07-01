@@ -1,0 +1,130 @@
+{
+  "folder": "3H1ThzHW4rZStZrr",
+  "name": "Elemental Origin",
+  "type": "subclass",
+  "_id": "8XwxphT8haHDfusu",
+  "img": "icons/magic/lightning/bolt-strike-explosion-blue.webp",
+  "system": {
+    "description": "<p>Play the Elemental Origin if you want to channel raw magic to take the shape of a particular element.</p>",
+    "spellcastingTrait": "instinct",
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "7BvlS1cRBN5ZKljV",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Elementalist",
+          "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
+          "description": "<p>Choose one of the following elements at character creation:</p><ul><li><p>air</p></li><li><p>earth</p></li><li><p>fire</p></li><li><p>lightning</p></li><li><p>water.</p></li></ul><p>You can shape this element into harmless effects. Additionally, spend a Hope and describe how your control over this element helps an action roll you’re about to make, then either gain a +2 bonus to the roll or a +3 bonus to the roll’s damage.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "type": "hope",
+              "value": 1,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "g4NJcJYgmNp6GbwW",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Natural Evasion",
+          "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue-yellow.webp",
+          "description": "<p>You can call forth your element to protect you from harm. When an attack roll against you succeeds, you can mark a Stress and describe how you use your element to defend you. When you do, roll a [[d6]] and add its result to your Evasion against the attack.</p>",
+          "chatDisplay": true,
+          "actionType": "reaction",
+          "cost": [
+            {
+              "type": "stress",
+              "value": 1,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "5gD6UhtnLxPqfFvC",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Transcendence",
+          "img": "icons/magic/lightning/orb-ball-purple.webp",
+          "description": "<p>Once per long rest, you can transform into a physical manifestation of your element. When you do, describe your transformation and choose two of the following benefits to gain until your next rest:</p><ul><li><p>+4 bonus to your Severe threshold</p></li><li><p>+1 bonus to a character trait of your choice</p></li><li><p>+1 bonus to your Proficiency</p></li><li><p>+2 bonus to your Evasion</p></li></ul><p></p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "longRest"
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751390769716,
+    "modifiedTime": 1751391064202,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!8XwxphT8haHDfusu"
+}
