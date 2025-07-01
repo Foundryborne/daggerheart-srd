@@ -1,38 +1,35 @@
 {
-  "id": "daggerheart-srd",
-  "title": "Daggerheart SRD Content",
-  "description": "Daggerheart SRD Content as a module.",
-  "authors": [
+    "id": "daggerheart-srd",
+    "title": "Daggerheart SRD",
+    "description": "Daggerheart SRD compendium content",
+    "authors": [
     {
-    "id": "cptn-cosmo",
-    "discord": "cptn-cosmo"
+        "id": "cptn-cosmo",
+        "name": "cptn-cosmo",
+        "discord": "cptn-cosmo"
+    },
+    {
+        "id": "WBHarry",
+        "name": "HarryFurAlle",
+        "discord": "HarryFurAlle"
     }
-  ],
-  "relationships": {
-    "systems": [{
-        "id": "daggerheart",
-        "type": "system",
-        "manifest": "https://github.com/Foundryborne/daggerhear/releases/download/1.0.0/system.json",
-        "compatibility": {
-        "verified": "1.0.0"
-        }
-    }]
-  },
-  "packs": [
+    ],
+    "relationships": {
+        "systems": [{
+            "id": "daggerheart",
+            "type": "system",
+            "manifest": "https://github.com/Foundryborne/daggerhear/releases/download/1.0.0/system.json",
+            "compatibility": {
+            "verified": "1.0.0"
+            }
+        }]
+    },
+    "packs": [
         {
             "name": "classes",
             "label": "Classes",
             "system": "daggerheart",
             "path": "packs/classes.db",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "class-features",
-            "label": "Class Features",
-            "system": "daggerheart",
-            "path": "packs/class-features.db",
             "type": "Item",
             "private": false,
             "flags": {}
@@ -74,15 +71,6 @@
             "flags": {}
         },
         {
-            "name": "community-features",
-            "label": "Community Features",
-            "system": "daggerheart",
-            "path": "packs/community-features.db",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
             "name": "weapons",
             "label": "Weapons",
             "system": "daggerheart",
@@ -110,10 +98,10 @@
             "flags": {}
         },
         {
-            "name": "general-items",
-            "label": "General Items",
+            "name": "miscellaneous",
+            "label": "Miscellaneous",
             "system": "daggerheart",
-            "path": "packs/items/general.db",
+            "path": "packs/items/miscellaneous.db",
             "type": "Item",
             "private": false,
             "flags": {}
@@ -150,33 +138,24 @@
                     "color": "#000000",
                     "packs": [
                         "classes",
-                        "class-features",
                         "subclasses",
                         "domains",
                         "ancestries",
-                        "communities",
-                        "community-features"
+                        "communities"
                     ]
                 },
                 {
                     "name": "Items",
                     "sorting": "m",
                     "color": "#000000",
-                    "packs": ["weapons", "armors", "consumables", "general-items"]
+                    "packs": ["weapons", "armors", "consumables", "miscellaneous"]
                 }
             ]
         }
     ],
-    "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
     }
-  ],
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  }
 }

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node ../../../../FoundryDev/main.js --dataPath=../../../  --noupnp",
+    "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs",
+    "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.2"
+  }
+}

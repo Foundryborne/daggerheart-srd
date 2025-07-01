@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": "yPVeShe47ETIqs9q",
+  "name": "Level 5",
+  "color": null,
+  "sorting": "a",
+  "_id": "XDSp0FdiYDVO0tfw",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751372615516,
+    "modifiedTime": 1751372615516,
+    "lastModifiedBy": "EhY0UV2lYpQcmdoD"
+  },
+  "_key": "!folders!XDSp0FdiYDVO0tfw"
+}
