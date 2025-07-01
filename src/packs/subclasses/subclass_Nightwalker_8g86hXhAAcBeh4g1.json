@@ -1,0 +1,167 @@
+{
+  "folder": "2ifNVaI1HZtXVSdf",
+  "name": "Nightwalker",
+  "type": "subclass",
+  "_id": "8g86hXhAAcBeh4g1",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "description": "<p>Play the Nightwalker if you want to manipulate shadows to maneuver through the environment.</p>",
+    "spellcastingTrait": "finesse",
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "CpDMhcjyOXzkjeTc",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Shadow Stepper",
+          "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
+          "description": "<p>You can move from shadow to shadow. When you move into an area of darkness or a shadow cast by another creature or object, you can mark a Stress to disappear from where you are and reappear inside another shadow within Far range. When you reappear, you are Cloaked.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": "far"
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "6o06yJqlevKS4JMM",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Dark Cloud",
+          "img": "icons/magic/unholy/orb-glowing-purple.webp",
+          "description": "<p>Make a Spellcast Roll (15). On a success, create a temporary dark cloud that covers any area within Close range. Anyone in this cloud can’t see outside of it, and anyone outside of it can’t see in. You’re considered Cloaked from any adversary for whom the cloud blocks line of sight.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "kjEb25Oml1fbhXw8",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Adrenaline",
+          "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+          "description": "<p>While you’re Vulnerable, add your level to your damage rolls.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "8MVlyF5mTf3l3sxU",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Effect",
+          "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+          "description": "<p>Fleeting Shadow: Gain a permanent +1 bonus to your Evasion . You can use your “Shadow Stepper” feature to move within Very Far range.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "rJk9cSJMHqDVM8cs",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Vanishing Act",
+          "img": "icons/skills/movement/ball-spinning-blue.webp",
+          "description": "<p>Mark a Stress to become Cloaked at any time. When Cloaked from this feature, you automatically clear the Restrained condition if you have it. You remain Cloaked in this way until you roll with Fear or until your next rest.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "type": "stress",
+              "value": 1,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751388609477,
+    "modifiedTime": 1751389067709,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!8g86hXhAAcBeh4g1"
+}

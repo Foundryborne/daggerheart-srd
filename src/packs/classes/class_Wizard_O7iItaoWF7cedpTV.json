@@ -1,0 +1,136 @@
+{
+  "name": "Wizard",
+  "type": "class",
+  "_id": "O7iItaoWF7cedpTV",
+  "img": "modules/daggerheart-srd/artwork/icons/classes/wizard.png",
+  "system": {
+    "description": "<div class=\"primer-description-class MuiBox-root css-0\"><p>As a wizard, you’ve become familiar with the arcane through the relentless study of grimoires and other tools of magic.</p></div>",
+    "domains": [
+      "codex",
+      "splendor"
+    ],
+    "classItems": [],
+    "hitPoints": 5,
+    "evasion": 11,
+    "hopeFeatures": [
+      {
+        "_id": "MlOwfkLdOExHfJaA",
+        "systemPath": "hopeFeatures",
+        "type": "effect",
+        "name": "Not This Time",
+        "img": "icons/magic/time/clock-spinning-gold-pink.webp",
+        "description": "<p>Spend 3 Hope to force an adversary within Far range to reroll an attack or damage roll.</p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 3,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": "hostile",
+          "amount": 1
+        },
+        "range": "far"
+      }
+    ],
+    "classFeatures": [
+      {
+        "_id": "wdrQ7NQAAQbr47KR",
+        "systemPath": "classFeatures",
+        "type": "effect",
+        "name": "Prestidigitation",
+        "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+        "description": "<p>You can perform harmless, subtle magical effects at will. For example, you can change an object’s color, create a smell, light a candle, cause a tiny object to float, illuminate a room, or repair a small object.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "AwKK2wpvnm2sDLYa",
+        "systemPath": "classFeatures",
+        "type": "effect",
+        "name": "Strange Patterns",
+        "img": "icons/magic/symbols/triangle-glow-purple.webp",
+        "description": "<p>Choose a number between 1 and 12. When you roll that number on a Duality Die, gain a Hope or clear a Stress. You can change this number when you take a long rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "recovery": "longRest"
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "subclasses": [
+      "Compendium.daggerheart-srd.subclasses.Item.m31T2XsheVZFmWgF",
+      "Compendium.daggerheart-srd.subclasses.Item.8IYTLSjqHrVAXPRY"
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": []
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": -1,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 1,
+        "presence": 1,
+        "knowledge": 2
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751381537033,
+    "modifiedTime": 1751393091194,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!O7iItaoWF7cedpTV"
+}

@@ -1,0 +1,230 @@
+{
+  "folder": "GECczaEI6KI9W7B7",
+  "name": "Vengeance",
+  "type": "subclass",
+  "_id": "784IQyh6kkXbJYdN",
+  "img": "icons/weapons/swords/sword-winged-pink.webp",
+  "system": {
+    "description": "<p>Play the Vengeance if you want to strike down enemies who harm you or your allies.</p>",
+    "spellcastingTrait": null,
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "tuB7Fvnmk04xis6y",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "At Ease",
+          "img": "icons/weapons/swords/sword-winged-pink.webp",
+          "description": "<p>Gain an additional Stress slot.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [
+            {
+              "_id": "RYePRXbB8aIwtjPv",
+              "onSave": false
+            }
+          ],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "sl3PXXxOuWsiJpKR",
+          "systemPath": "foundationFeature.actions",
+          "type": "damage",
+          "name": "Revenge",
+          "img": "icons/skills/melee/sword-damaged-chipped-green.webp",
+          "description": "<p>When an adversary within Melee range succeeds on an attack against you, you can mark 2 Stress to force the attacker to mark a Hit Point.</p>",
+          "chatDisplay": true,
+          "actionType": "reaction",
+          "cost": [
+            {
+              "type": "stress",
+              "value": 2,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "damage": {
+            "parts": [
+              {
+                "value": {
+                  "custom": {
+                    "enabled": true,
+                    "formula": "1"
+                  },
+                  "multiplier": "prof",
+                  "flatMultiplier": 1,
+                  "dice": "d6",
+                  "bonus": null
+                },
+                "type": "physical",
+                "base": false,
+                "resultBased": false,
+                "valueAlt": {
+                  "multiplier": "prof",
+                  "flatMultiplier": 1,
+                  "dice": "d6",
+                  "bonus": null,
+                  "custom": {
+                    "enabled": false
+                  }
+                }
+              }
+            ],
+            "includeBase": false
+          },
+          "target": {
+            "type": "hostile",
+            "amount": 1
+          },
+          "effects": [],
+          "range": "melee"
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "nsBD5clD7X2drria",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Act of Reprisal",
+          "img": "icons/skills/melee/blade-tip-energy-green.webp",
+          "description": "<p>When an adversary damages an ally within Melee range, you gain a +1 bonus to your Proficiency for the next successful attack you make against that adversary.</p>",
+          "chatDisplay": true,
+          "actionType": "reaction",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "d4D7tpRLFEAjytdF",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Nemesis",
+          "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+          "description": "<p>Spend 2 Hope to Prioritize an adversary until your next rest. When you make an attack against your Prioritized adversary, you can swap the results of your Hope and Fear Dice. You can only Prioritize one adversary at a time.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "type": "hope",
+              "value": 2,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": "hostile",
+            "amount": 1
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [
+    {
+      "name": "Vengeance",
+      "img": "icons/weapons/swords/sword-winged-pink.webp",
+      "origin": "Compendium.daggerheart-srd.subclasses.Item.784IQyh6kkXbJYdN",
+      "transfer": false,
+      "_id": "RYePRXbB8aIwtjPv",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "value": "",
+          "mode": 2
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751386323011,
+        "modifiedTime": 1751386325394,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!784IQyh6kkXbJYdN.RYePRXbB8aIwtjPv"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751386251006,
+    "modifiedTime": 1751387209700,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!784IQyh6kkXbJYdN"
+}

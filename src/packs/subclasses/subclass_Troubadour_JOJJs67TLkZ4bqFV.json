@@ -1,0 +1,316 @@
+{
+  "folder": "GdwNrxosxgFCMwUJ",
+  "name": "Troubadour",
+  "type": "subclass",
+  "_id": "JOJJs67TLkZ4bqFV",
+  "img": "modules/daggerheart-srd/artwork/icons/subclasses/troubadour.png",
+  "system": {
+    "description": "<p>Play the Troubadour if you want to play music to bolster your allies.</p>",
+    "spellcastingTrait": "presence",
+    "foundationFeature": {
+      "name": "",
+      "effects": [
+        "Compendium.daggerheart-srd.subclasses.Item.JOJJs67TLkZ4bqFV.ActiveEffect.Ai2Px2k5QzwXEswV"
+      ],
+      "actions": [
+        {
+          "_id": "lF62Hiq9SuRJa5OO",
+          "systemPath": "foundationFeature.actions",
+          "type": "healing",
+          "name": "Relaxing Song",
+          "img": "icons/magic/life/heart-cross-blue.webp",
+          "description": "<p><em><strong>Relaxing Song:</strong></em> You and all allies within <span class=\"\"><a style=\"border-bottom: 1px dotted rgb(0, 0, 0); text-decoration: none;\" class=\"tooltip-link tooltip-link-rule\">Close</a> </span>range clear a <span class=\"\"><a style=\"border-bottom: 1px dotted rgb(0, 0, 0); text-decoration: none;\" class=\"tooltip-link tooltip-link-rule\">Hit Point</a></span>.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "effects": [],
+          "healing": {
+            "type": "hitPoints",
+            "resultBased": false,
+            "value": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": 1,
+              "custom": {
+                "enabled": true,
+                "formula": "1"
+              }
+            },
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false
+              }
+            }
+          },
+          "roll": {
+            "type": "ability",
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": "above",
+              "treshold": 1
+            }
+          },
+          "range": ""
+        },
+        {
+          "_id": "a1ucA5cPsCVCSeJQ",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Epic Song",
+          "img": "modules/daggerheart-srd/artwork/icons/subclasses/troubadour.png",
+          "description": "<p>Epic Song: Make a target within Close range temporarily Vulnerable.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [
+            {
+              "_id": "QT5LIL1fwx3M1qEM",
+              "onSave": false
+            }
+          ],
+          "target": {
+            "type": "hostile",
+            "amount": null
+          },
+          "range": "close"
+        },
+        {
+          "_id": "s7YSSaSYNGrhjCia",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Heartbreaking Song",
+          "img": "modules/daggerheart-srd/artwork/icons/subclasses/troubadour.png",
+          "description": "<p>Heartbreaking Song: You and all allies within Close range gain a Hope.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "longRest"
+          },
+          "effects": [
+            {
+              "_id": "4y6Ulmp5ZE5TD4As",
+              "onSave": false
+            }
+          ],
+          "target": {
+            "type": "friendly",
+            "amount": null
+          },
+          "range": "close"
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "bnJGL4ygbqkQVxxD",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Maestro",
+          "img": "icons/sundries/gaming/dice-pair-white-green.webp",
+          "description": "<p><em><strong>Maestro:</strong></em> Your rallying songs steel the courage of those who listen. When you give a Rally Die to an ally, they can gain a Hope or clear a <span class=\"\"><a style=\"border-bottom: 1px dotted rgb(0, 0, 0); text-decoration: none;\" class=\"tooltip-link tooltip-link-rule\">Stress</a>.</span></p><p></p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "smyo8wYBfIHzU7w5",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Virtuoso",
+          "img": "modules/daggerheart-srd/artwork/icons/subclasses/troubadour.png",
+          "description": "<p>Virtuoso: You are among the greatest of your craft and your skill is boundless. You can perform each of your “Gifted Performer” feature’s songs twice instead of once per long rest.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [
+    {
+      "name": "Troubadour",
+      "img": "modules/daggerheart-srd/artwork/icons/subclasses/troubadour.png",
+      "origin": "Compendium.daggerheart-srd.subclasses.Item.JOJJs67TLkZ4bqFV",
+      "transfer": false,
+      "_id": "QT5LIL1fwx3M1qEM",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751383043391,
+        "modifiedTime": 1751383043391,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!JOJJs67TLkZ4bqFV.QT5LIL1fwx3M1qEM"
+    },
+    {
+      "name": "Troubadour",
+      "img": "modules/daggerheart-srd/artwork/icons/subclasses/troubadour.png",
+      "origin": "Compendium.daggerheart-srd.subclasses.Item.JOJJs67TLkZ4bqFV",
+      "transfer": false,
+      "_id": "4y6Ulmp5ZE5TD4As",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "value": "",
+          "mode": 2
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751383124074,
+        "modifiedTime": 1751383131917,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!JOJJs67TLkZ4bqFV.4y6Ulmp5ZE5TD4As"
+    },
+    {
+      "name": "New Effect",
+      "_id": "Ai2Px2k5QzwXEswV",
+      "img": "icons/magic/life/heart-cross-blue.webp",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751383177581,
+        "modifiedTime": 1751383177581,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!JOJJs67TLkZ4bqFV.Ai2Px2k5QzwXEswV"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751381655762,
+    "modifiedTime": 1751383326592,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!JOJJs67TLkZ4bqFV"
+}

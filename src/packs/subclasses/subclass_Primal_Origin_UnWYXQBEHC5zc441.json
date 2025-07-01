@@ -1,0 +1,130 @@
+{
+  "folder": "3H1ThzHW4rZStZrr",
+  "name": "Primal Origin",
+  "type": "subclass",
+  "_id": "UnWYXQBEHC5zc441",
+  "img": "icons/magic/nature/plant-undersea-orb-purple.webp",
+  "system": {
+    "description": "<p>Play the Primal Origin if you want to extend the versatility of your spells in powerful ways.</p>",
+    "spellcastingTrait": "instinct",
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "0szRLe6Vvghq1OjA",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Manipulate Magic",
+          "img": "icons/magic/control/sleep-bubble-purple.webp",
+          "description": "<p>Your primal origin allows you to modify the essence of magic itself. After you cast a spell or make an attack using a weapon that deals magic damage, you can mark a Stress to do one of the following:</p><ul><li><p>Extend the spell or attack’s reach by one range</p></li><li><p>Gain a +2 bonus to the action roll’s result</p></li><li><p>Double a damage die of your choice</p></li><li><p>Hit an additional target within range</p></li></ul>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "type": "stress",
+              "value": 1,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "8eLhHhWOcrrG94ig",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Enchanted Aid",
+          "img": "icons/magic/unholy/hand-marked-pink.webp",
+          "description": "<p>You can enhance the magic of others with your essence. When you Help an Ally with a Spellcast Roll , you can roll a [[d8]] as your advantage die. Once per long rest, after an ally has made a Spellcast Roll with your help, you can swap the results of their Duality Dice.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "longRest"
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "JsUlvX9F8pvb0IJB",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Arcane Charge",
+          "img": "icons/magic/unholy/orb-hands-pink.webp",
+          "description": "<p>You can gather magical energy to enhance your capabilities. When you take magic damage, you become Charged. Alternatively, you can spend 2 Hope to become Charged. When you successfully make an attack that deals magic damage while Charged, you can clear your Charge to either gain a +10 bonus to the damage roll or gain a +3 bonus to the Difficulty of a reaction roll the spell causes the target to make. You stop being Charged at your next long rest.</p>",
+          "chatDisplay": true,
+          "actionType": "reaction",
+          "cost": [
+            {
+              "type": "hope",
+              "value": 2,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751391080063,
+    "modifiedTime": 1751391469540,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!UnWYXQBEHC5zc441"
+}

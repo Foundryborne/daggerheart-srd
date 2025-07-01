@@ -1,0 +1,189 @@
+{
+  "folder": "H1Djv0I92cn25M4t",
+  "name": "School of Knowledge",
+  "type": "subclass",
+  "_id": "m31T2XsheVZFmWgF",
+  "img": "icons/sundries/books/book-backed-silver-gold.webp",
+  "system": {
+    "description": "<p>Play the School of Knowledge if you want a keen understanding of the world around you.</p>",
+    "spellcastingTrait": "knowledge",
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "WdTYuOO8mRms2bEU",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Prepared",
+          "img": "icons/sundries/gaming/playing-cards-black.webp",
+          "description": "<p>Take an additional domain card of your level or lower from a domain you have access to.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "fdmvo1ikT3IEDPKS",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Adept",
+          "img": "icons/sundries/documents/document-letter-blue.webp",
+          "description": "<p>When you Utilize an Experience, you can mark a Stress instead of spending a Hope. If you do, double your Experience modifier for that roll.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "type": "stress",
+              "value": 1,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "BwNeV44u67mYMSrF",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Accomplished",
+          "img": "icons/sundries/gaming/playing-cards-brown.webp",
+          "description": "<p>Take an additional domain card of your level or lower from a domain you have access to.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "y85Cuolv6Q4v5f6v",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Perfect Recall",
+          "img": "icons/magic/time/arrows-circling-pink.webp",
+          "description": "<p>Once per rest, when you recall a domain card in your vault, you can reduce its Recall Cost by 1.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "shortRest"
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "pH7kHBZl89YfYOn9",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Brilliant",
+          "img": "icons/sundries/gaming/playing-cards-grey.webp",
+          "description": "<p>Take an additional domain card of your level or lower from a domain you have access to.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "vtuB12h88VZhPBDw",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Honed Expertise",
+          "img": "icons/sundries/documents/document-symbol-triangle-pink.webp",
+          "description": "<p>When you use an Experience, roll a d6. On a result of 5 or higher, you can use it without spending Hope.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751392502688,
+    "modifiedTime": 1751392756892,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!m31T2XsheVZFmWgF"
+}

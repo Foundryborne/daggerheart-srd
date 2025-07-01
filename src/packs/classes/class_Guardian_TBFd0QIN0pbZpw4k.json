@@ -1,0 +1,114 @@
+{
+  "name": "Guardian",
+  "type": "class",
+  "_id": "TBFd0QIN0pbZpw4k",
+  "img": "modules/daggerheart-srd/artwork/icons/classes/guardian.png",
+  "system": {
+    "description": "<p>As a guardian, you run into danger to protect your party, keeping watch over those who might not survive without you there.</p>",
+    "domains": [
+      "valor",
+      "blade"
+    ],
+    "classItems": [],
+    "hitPoints": 7,
+    "evasion": 9,
+    "hopeFeatures": [
+      {
+        "_id": "s5e8Z1GDzv13AIB9",
+        "systemPath": "hopeFeatures",
+        "type": "effect",
+        "name": "Frontline Tank",
+        "img": "icons/magic/defensive/shield-barrier-blue.webp",
+        "description": "<p>Spend 3 Hope to clear 2 Armor Slots.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 3,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "classFeatures": [
+      {
+        "_id": "7FFx3CR2goksHlad",
+        "systemPath": "classFeatures",
+        "type": "effect",
+        "name": "Unstoppable",
+        "img": "modules/daggerheart-srd/artwork/icons/classes/guardian.png",
+        "description": "<p>Once per long rest, you can become Unstoppable. You gain an Unstoppable Die. At level 1, your Unstoppable Die is a [[d4]]. Place it on your character sheet in the space provided, starting with the 1 value facing up. After you make a damage roll that deals 1 or more Hit Points to a target, increase the Unstoppable Die value by one. When the die’s value would exceed its maximum value or when the scene ends, remove the die and drop out of Unstoppable. At level 5, your Unstoppable Die increases to a [[d6]].</p><p>While Unstoppable, you gain the following benefits:</p><ul><li><p>You reduce the severity of physical damage by one threshold (Severe to Major, Major to Minor, Minor to None).</p></li><li><p>You add the current value of the Unstoppable Die to your damage roll.</p></li><li><p>You can’t be Restrained or Vulnerable.</p></li></ul>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "recovery": "longRest"
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "subclasses": [
+      "Compendium.daggerheart-srd.subclasses.Item.Nqr4zfQJvEgJzaTH",
+      "Compendium.daggerheart-srd.subclasses.Item.784IQyh6kkXbJYdN"
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": []
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 1,
+        "strength": 2,
+        "finesse": -1,
+        "instinct": 0,
+        "presence": 1,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751380781139,
+    "modifiedTime": 1751386751308,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!TBFd0QIN0pbZpw4k"
+}

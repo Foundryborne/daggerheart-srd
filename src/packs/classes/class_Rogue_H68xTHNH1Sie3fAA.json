@@ -1,0 +1,157 @@
+{
+  "name": "Rogue",
+  "type": "class",
+  "_id": "H68xTHNH1Sie3fAA",
+  "img": "modules/daggerheart-srd/artwork/icons/classes/rogue.png",
+  "system": {
+    "description": "<div class=\"primer-description-class MuiBox-root css-0\"><p>As a rogue, you have experience fighting with your blade as well as your wit, preferring to move quickly and fight quietly.</p></div>",
+    "domains": [
+      "midnight",
+      "grace"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 12,
+    "hopeFeatures": [
+      {
+        "_id": "jOu8vCagYf9SxzIs",
+        "systemPath": "hopeFeatures",
+        "type": "effect",
+        "name": "Rogue’s Dodge",
+        "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+        "description": "<p>Spend 3 Hope to gain a +2 bonus to your Evasion until the next time an attack succeeds against you. Otherwise, this bonus lasts until your next rest.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "classFeatures": [
+      {
+        "_id": "3mtBwdIGGvKE9e7Y",
+        "systemPath": "classFeatures",
+        "type": "effect",
+        "name": "Cloaked",
+        "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+        "description": "<p>Any time you would be Hidden, you are instead Cloaked. In addition to the benefits of the Hidden condition, while Cloaked you remain unseen if you are stationary when an adversary moves to where they would normally see you. After you make an attack or end a move within line of sight of an adversary, you are no longer Cloaked.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "uhZifC8fkO0YlIBF",
+        "systemPath": "classFeatures",
+        "type": "damage",
+        "name": "Sneak Attack",
+        "img": "icons/skills/melee/blade-tip-acid-poison-green.webp",
+        "description": "<p>When you succeed on an attack while Cloaked or while an ally is within Melee range of your target, add a number of [[d6]]s equal to your tier to your damage roll.</p><ul><li><p>Level 1 → Tier 1</p></li><li><p>Levels 2–4 → Tier 2</p></li><li><p>Levels 5–7 → Tier 3</p></li><li><p>Levels 8–10 → Tier 4</p></li></ul>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": false
+                },
+                "multiplier": "prof",
+                "dice": "d6",
+                "bonus": null,
+                "flatMultiplier": 1
+              },
+              "type": "physical",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false
+                }
+              }
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "hostile",
+          "amount": 1
+        },
+        "effects": [],
+        "range": ""
+      }
+    ],
+    "subclasses": [
+      "Compendium.daggerheart-srd.subclasses.Item.8g86hXhAAcBeh4g1",
+      "Compendium.daggerheart-srd.subclasses.Item.CesdJyS5lKbpNY9B"
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": []
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 1,
+        "strength": -1,
+        "finesse": 2,
+        "instinct": 0,
+        "presence": 1,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751380982882,
+    "modifiedTime": 1751389309439,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!H68xTHNH1Sie3fAA"
+}

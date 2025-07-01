@@ -1,0 +1,152 @@
+{
+  "folder": "cTmpeni3Jg55NkX4",
+  "name": "Wayfinder",
+  "type": "subclass",
+  "_id": "L8cnoXDQKJZhbnlw",
+  "img": "icons/skills/movement/arrow-upward-blue.webp",
+  "system": {
+    "description": "<p>Play the Wayfinder if you want to hunt your prey and strike with deadly force.</p>",
+    "spellcastingTrait": "agility",
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "q0AyIXT0LxGVHLCz",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Ruthless Predator",
+          "img": "icons/skills/targeting/crosshair-mark-rough-pink.webp",
+          "description": "<p>When you make a damage roll, you can mark a Stress to gain a +1 bonus to your Proficiency. Additionally, when you deal Severe damage to an adversary, they must mark a Stress.</p>",
+          "chatDisplay": true,
+          "actionType": "reaction",
+          "cost": [
+            {
+              "type": "stress",
+              "value": 1,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "hWEqcexBYFe4GyrM",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Path Forward",
+          "img": "icons/skills/movement/figure-running-gray.webp",
+          "description": "<p>When you’re traveling to a place you’ve previously visited or you carry an object that has been at the location before, you can identify the shortest, most direct path to your destination.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "FF8yqkXVi5MhIp7C",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Elusive Predator",
+          "img": "icons/skills/targeting/target-glowing-yellow.webp",
+          "description": "<p>When your Focus makes an attack against you, you gain a +2 bonus to your Evasion against the attack.</p>",
+          "chatDisplay": true,
+          "actionType": "reaction",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "onzBojkiKUS7Vxqd",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Apex Predator",
+          "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
+          "description": "<p>Before you make an attack roll against your Focus, you can spend a Hope. On a successful attack, you remove a Fear from the GM’s Fear pool.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [
+            {
+              "type": "hope",
+              "value": 1,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751387902717,
+    "modifiedTime": 1751388167021,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!L8cnoXDQKJZhbnlw"
+}

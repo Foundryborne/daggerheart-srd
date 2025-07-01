@@ -1,0 +1,133 @@
+{
+  "name": "Druid",
+  "type": "class",
+  "_id": "InITSW5zCAKVQTp7",
+  "img": "modules/daggerheart-srd/artwork/icons/classes/druid.png",
+  "system": {
+    "description": "<div class=\"primer-description-class MuiBox-root css-0\"><p>As a druid, you are a force of nature, preserving the balance of life and death by channeling the wilds themselves through you.</p></div>",
+    "domains": [
+      "sage",
+      "arcana"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 10,
+    "hopeFeatures": [
+      {
+        "_id": "oPC3UOhMJLtqA5JK",
+        "systemPath": "hopeFeatures",
+        "type": "summon",
+        "name": "Evolution",
+        "img": "modules/daggerheart-srd/artwork/icons/classes/druid.png",
+        "description": "<p>Evolution: Spend 3 Hope to transform into a Beastform without marking a Stress.<br>When you do, choose one trait to raise by +1 until you drop out of that Beastform.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 3,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "documentUUID": null
+      }
+    ],
+    "classFeatures": [
+      {
+        "_id": "HBKF7r2bhqcgatRX",
+        "systemPath": "classFeatures",
+        "type": "summon",
+        "name": "Beastform",
+        "img": "modules/daggerheart-srd/artwork/icons/classes/druid.png",
+        "description": "<p>Beastform</p><p>Mark a Stress</p><p>to magically transform into a creature of your tier or lower from the Beastform list. You can drop out of this form at any time. While transformed, you can’t use weapons or cast spells from domain cards</p><p>, but you can still use other features or abilities you have access to. Spells you cast before you transform stay active and last for their normal duration, and you can talk and communicate as normal. Additionally, you gain the Beastform’s features, add their Evasion</p><p>bonus to your Evasion, and use the trait specified in their statistics for your attack. While you’re in a Beastform, your armor becomes part of your body and you mark Armor Slots</p><p>as usual; when you drop out of a Beastform, those marked Armor Slots remain marked. If you mark your last Hit Point</p><p>, you automatically drop out of this form.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "documentUUID": null
+      },
+      {
+        "_id": "Tm5GESwGL8JKEZgK",
+        "systemPath": "classFeatures",
+        "type": "effect",
+        "name": "Wildtouch",
+        "img": "modules/daggerheart-srd/artwork/icons/classes/druid.png",
+        "description": "<p>You can perform harmless, subtle effects that involve nature—such as causing a flower to rapidly grow, summoning a slight gust of wind, or starting a campfire—at will.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "subclasses": [
+      "Compendium.daggerheart-srd.subclasses.Item.hBt4uSkipG3PerHU",
+      "Compendium.daggerheart-srd.subclasses.Item.L0WXtJ7Bn4CMMDZN"
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": []
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 1,
+        "strength": 0,
+        "finesse": 1,
+        "instinct": 2,
+        "presence": -1,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751380679827,
+    "modifiedTime": 1751385638567,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!InITSW5zCAKVQTp7"
+}

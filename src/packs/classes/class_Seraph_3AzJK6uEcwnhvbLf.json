@@ -1,0 +1,150 @@
+{
+  "name": "Seraph",
+  "type": "class",
+  "_id": "3AzJK6uEcwnhvbLf",
+  "img": "modules/daggerheart-srd/artwork/icons/classes/seraph.png",
+  "system": {
+    "description": "<div class=\"primer-description-class MuiBox-root css-0\"><p>As a seraph, you’ve taken a vow to a god who helps you channel sacred arcane power to keep your party on their feet.</p></div>",
+    "domains": [
+      "splendor",
+      "valor"
+    ],
+    "classItems": [],
+    "hitPoints": 7,
+    "evasion": 9,
+    "hopeFeatures": [
+      {
+        "_id": "8llXONfcqJT93KZb",
+        "systemPath": "hopeFeatures",
+        "type": "healing",
+        "name": "Life Support",
+        "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
+        "description": "<p>Spend 3 Hope to clear a Hit Point on an ally within Close range.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 3,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "target": {
+          "type": "friendly",
+          "amount": 1
+        },
+        "effects": [],
+        "healing": {
+          "type": "hitPoints",
+          "resultBased": false,
+          "value": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": true,
+              "formula": "1"
+            }
+          },
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "range": "close"
+      }
+    ],
+    "classFeatures": [
+      {
+        "_id": "mcUoCwryMUG0akwq",
+        "systemPath": "classFeatures",
+        "type": "effect",
+        "name": "Prayer Dice",
+        "img": "icons/sundries/gaming/dice-pair-white-green.webp",
+        "description": "<p>At the beginning of each session, roll a number of [[d4]]s equal to your subclass’s Spellcast trait and place them on your character sheet in the space provided. These are your Prayer Dice. You can spend any number of Prayer Dice to aid yourself or an ally within Far</p><p>range. You can use a spent die’s value to reduce incoming damage, add to a roll’s result after the roll is made, or gain Hope</p><p>equal to the result. At the end of each session, clear all unspent Prayer Dice.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "recovery": "session"
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "subclasses": [
+      "Compendium.daggerheart-srd.subclasses.Item.ttT29uL58blliioE",
+      "Compendium.daggerheart-srd.subclasses.Item.TOM0xeKAV4POZawN"
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": []
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 2,
+        "finesse": 0,
+        "instinct": 1,
+        "presence": 1,
+        "knowledge": -1
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751381056356,
+    "modifiedTime": 1751390233539,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!3AzJK6uEcwnhvbLf"
+}

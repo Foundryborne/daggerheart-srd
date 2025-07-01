@@ -1,0 +1,252 @@
+{
+  "folder": "8o3AE33T1pSQH296",
+  "name": "Warden of Renewal",
+  "type": "subclass",
+  "_id": "hBt4uSkipG3PerHU",
+  "img": "icons/magic/nature/plant-sproutdirt-green.webp",
+  "system": {
+    "description": "<p>Play the Warden of Renewal if you want to use powerful magic to heal your party.</p>",
+    "spellcastingTrait": "instinct",
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "TsWbA2J86d7Uu6t9",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Clarity of Nature",
+          "img": "icons/magic/nature/leaf-flower-wreath-glow-green-blue.webp",
+          "description": "<p>Once per long rest, you can create a space of natural serenity within Close range. When you spend a few minutes resting within the space, clear Stress equal to your Instinct, distributed as you choose between you and your allies.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "longRest"
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "HRdMde19lZD3xb69",
+          "systemPath": "foundationFeature.actions",
+          "type": "healing",
+          "name": "Regeneration",
+          "img": "icons/magic/nature/beam-hand-leaves-green.webp",
+          "description": "<p>Touch a creature and spend 3 Hope. That creature clears [[1d4]] Hit Points.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "type": "hope",
+              "value": 3,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "target": {
+            "type": "friendly",
+            "amount": 1
+          },
+          "effects": [],
+          "healing": {
+            "type": "hitPoints",
+            "resultBased": false,
+            "value": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d4",
+              "bonus": null,
+              "custom": {
+                "enabled": false
+              }
+            },
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false
+              }
+            }
+          },
+          "roll": {
+            "type": null,
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": "above",
+              "treshold": 1
+            }
+          },
+          "range": "melee"
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "Frn20LJaW0FXguGR",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Regenerative Reach",
+          "img": "icons/magic/nature/leaf-hand-green.webp",
+          "description": "<p>You can target creatures within Very Close range with your “Regeneration” feature.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        },
+        {
+          "_id": "BS8WcRlbtUaAm8qF",
+          "systemPath": "specializationFeature.actions",
+          "type": "healing",
+          "name": "Warden’s Protection",
+          "img": "icons/magic/nature/plant-sproud-hands-dirt-green.webp",
+          "description": "<p>Once per long rest, spend 2 Hope to clear 2 Hit Points on 1d4 allies within Close range.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "type": "hope",
+              "value": 2,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": 1,
+            "max": 1,
+            "recovery": "longRest"
+          },
+          "target": {
+            "type": "friendly",
+            "amount": null
+          },
+          "effects": [],
+          "healing": {
+            "type": "hitPoints",
+            "resultBased": false,
+            "value": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": 2,
+              "custom": {
+                "enabled": true,
+                "formula": "2"
+              }
+            },
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false
+              }
+            }
+          },
+          "roll": {
+            "type": null,
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": "above",
+              "treshold": 1
+            }
+          },
+          "range": "close"
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "JrBT2mtloPCMapuX",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Defender",
+          "img": "icons/magic/nature/tree-spirit-glow-black-yellow.webp",
+          "description": "<p>Your animal transformation embodies a healing guardian spirit. When you’re in Beastform and an ally within Close range marks 2 or more Hit Points, you can mark a Stress to reduce the number of Hit Points they mark by 1.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "type": "stress",
+              "value": 1,
+              "scalable": false,
+              "step": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": "friendly",
+            "amount": 1
+          },
+          "range": "close"
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751384463572,
+    "modifiedTime": 1751384956083,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!hBt4uSkipG3PerHU"
+}

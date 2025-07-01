@@ -1,0 +1,116 @@
+{
+  "folder": "OzZ4UX9B6eNEzF49",
+  "name": "Call of the Slayer",
+  "type": "subclass",
+  "_id": "BizBH5VB8EBRTouE",
+  "img": "icons/skills/melee/strike-weapons-orange.webp",
+  "system": {
+    "description": "<p>Play the Call of the Slayer if you want to strike down adversaries with immense force.</p>",
+    "spellcastingTrait": null,
+    "foundationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "8IuO0ceWxW4ieZXQ",
+          "systemPath": "foundationFeature.actions",
+          "type": "effect",
+          "name": "Slayer",
+          "img": "icons/skills/melee/strike-dagger-skull-white.webp",
+          "description": "<p>You gain a pool of dice called Slayer Dice. On a roll with Hope , you can place a d6 on this card instead of gaining a Hope , adding the die to the pool. You can store a number of Slayer Dice equal to your Proficiency. When you make an attack roll or damage roll, you can spend any number of these Slayer Dice, rolling them and adding their result to the roll. At the end of each session, clear any unspent Slayer Dice on this card and gain a Hope per die cleared.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "specializationFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "t9izS3jurnQWpIne",
+          "systemPath": "specializationFeature.actions",
+          "type": "effect",
+          "name": "Weapon Specialist",
+          "img": "icons/skills/melee/strike-weapons-orange.webp",
+          "description": "<p>You can wield multiple weapons with dangerous ease. When you succeed on an attack, you can spend a Hope to add one of the damage dice from your secondary weapon to the damage roll. Additionally, once per long rest when you roll your Slayer Dice, reroll any 1s.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "masteryFeature": {
+      "name": "",
+      "effects": [],
+      "actions": [
+        {
+          "_id": "gMBbs431lJhTFDHA",
+          "systemPath": "masteryFeature.actions",
+          "type": "effect",
+          "name": "Martial Preparation",
+          "img": "icons/skills/melee/sword-stuck-glowing-pink.webp",
+          "description": "<p>You’re an inspirational warrior to all who travel with you. Your party gains access to the Martial Preparation downtime move. To use this move during a rest, describe how you instruct and train with your party. You and each ally who chooses this downtime move gain a [[d6]] Slayer Die. A PC with a Slayer Die can spend it to roll the die and add the result to an attack or damage roll of their choice.</p>",
+          "chatDisplay": true,
+          "actionType": "passive",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": null,
+            "recovery": null
+          },
+          "effects": [],
+          "target": {
+            "type": null,
+            "amount": null
+          },
+          "range": ""
+        }
+      ]
+    },
+    "featureState": 1,
+    "isMulticlass": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751392019985,
+    "modifiedTime": 1751392269704,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!BizBH5VB8EBRTouE"
+}
