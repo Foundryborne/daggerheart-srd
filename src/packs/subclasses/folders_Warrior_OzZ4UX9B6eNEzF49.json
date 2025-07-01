@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Warrior",
+  "color": null,
+  "sorting": "a",
+  "_id": "OzZ4UX9B6eNEzF49",
+  "description": "",
+  "sort": 800000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751372303421,
+    "modifiedTime": 1751372303425,
+    "lastModifiedBy": "XH8otQcRtKJUxLsz"
+  },
+  "_key": "!folders!OzZ4UX9B6eNEzF49"
+}
