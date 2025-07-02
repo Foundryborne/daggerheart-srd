@@ -6,7 +6,26 @@
   "system": {
     "tier": "tier1",
     "difficulty": 10,
-    "potentialAdversaries": {},
+    "potentialAdversaries": {
+      "mk6CpN1xgTwJC4Wt": {
+        "label": "Beasts",
+        "adversaries": [
+          "Compendium.daggerheart-srd.adversaries.Actor.CoBoGMtjf4YWSNOX",
+          "Compendium.daggerheart-srd.adversaries.Actor.xeXSw0kWPKfuCYak"
+        ]
+      },
+      "ZLevHpKQKNzcN7zE": {
+        "label": "Jagged Knife Bandits",
+        "adversaries": [
+          "Compendium.daggerheart-srd.adversaries.Actor.e5MpJYO8hzeVCJWD",
+          "Compendium.daggerheart-srd.adversaries.Actor.7p4oXbLVmjpvbF0s",
+          "Compendium.daggerheart-srd.adversaries.Actor.xn51Fj1ILi7QzEmR",
+          "Compendium.daggerheart-srd.adversaries.Actor.oUflw5w1RfCaWnsL",
+          "Compendium.daggerheart-srd.adversaries.Actor.ndBKuhIYcnZSRmNF",
+          "Compendium.daggerheart-srd.adversaries.Actor.QfGNzaTgiHWOJegx"
+        ]
+      }
+    },
     "actions": [
       {
         "_id": "veMK5EuA27r1SSjo",
@@ -191,7 +210,7 @@
     "systemId": "daggerheart",
     "systemVersion": "0.0.1",
     "createdTime": 1751465580172,
-    "modifiedTime": 1751466320757,
+    "modifiedTime": 1751483563680,
     "lastModifiedBy": "FoKVSo75fC01UKLZ"
   },
   "_key": "!actors!ru1dir0TKk63m0cL"

@@ -1,0 +1,336 @@
+{
+  "folder": "zY9tw00qJio5l0zR",
+  "name": "Acid Burrower",
+  "type": "adversary",
+  "_id": "pt0NkJdNGXnxbfLt",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "tier": "tier1",
+    "type": "solo",
+    "notes": "",
+    "difficulty": 14,
+    "hordeHp": 1,
+    "damageThresholds": {
+      "major": 8,
+      "severe": 15
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 8
+      },
+      "stress": {
+        "value": 0,
+        "max": 3
+      }
+    },
+    "actions": [
+      {
+        "_id": "CIr74zNZ46wumCby",
+        "type": "effect",
+        "name": "Relentless (3)",
+        "img": "icons/svg/mystery-man.svg",
+        "systemPath": "actions",
+        "description": "<p>The Burrower can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "D6Nl9SrvRBjsUtgG",
+        "type": "effect",
+        "name": "Earth Eruption",
+        "img": "icons/svg/mystery-man.svg",
+        "systemPath": "actions",
+        "description": "<p><strong>Mark a Stress</strong> to have the Burrower burst out of the ground. All creatures within Very Close range must succeed on an Agility Reaction Roll or be knocked over, making them Vulnerable until they next act.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "NxebEvjDtMH10EOX",
+        "type": "attack",
+        "name": "Spit Acid",
+        "img": "icons/svg/mystery-man.svg",
+        "systemPath": "actions",
+        "description": "<p>Make an attack against all targets in front of the Burrower within Close range. Targets the Burrower succeeds against take [[2d6]] physical damage and must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP and you gain a Fear</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "damage": {
+          "parts": [],
+          "includeBase": false
+        },
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "save": {
+          "trait": null,
+          "difficulty": 10,
+          "damageMod": "none"
+        },
+        "range": "close"
+      },
+      {
+        "_id": "r9EDvAPIgrTmYzlF",
+        "type": "effect",
+        "name": "Acid Bath",
+        "img": "icons/svg/mystery-man.svg",
+        "systemPath": "actions",
+        "description": "<p>When the Burrower takes Severe damage, all creatures within Close range are bathed in their acidic blood, taking [[1d10]] physical damage. This splash covers the ground within Very Close range with blood, and all creatures other than the Burrower who move through it take [[1d6]] physical damage.</p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "attack": {
+      "name": "Claws",
+      "_id": "2QohBg76AnF2unXf",
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "type": "weapon",
+        "trait": null,
+        "difficulty": null,
+        "bonus": 3,
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": "above",
+          "treshold": 1
+        }
+      },
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "custom": {
+                "enabled": false
+              },
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d12",
+              "bonus": 2
+            },
+            "type": "physical",
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false
+              }
+            }
+          }
+        ],
+        "includeBase": false
+      },
+      "description": "",
+      "chatDisplay": true,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": 10,
+        "damageMod": "none"
+      },
+      "img": "icons/svg/mystery-man.svg"
+    },
+    "experiences": {
+      "52LBbraVK6kZDOxb": {
+        "name": "Tremor Sense",
+        "modifier": 2
+      }
+    },
+    "bonuses": {
+      "difficulty": {
+        "all": 0,
+        "reaction": 0
+      }
+    },
+    "description": "A horse-sized insect with digging claws and acidic blood.",
+    "motivesAndTactics": "Burrow, drag away, feed, reposition"
+  },
+  "prototypeToken": {
+    "name": "Acid Burrower",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.health"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751470486708,
+    "modifiedTime": 1751483652858,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!actors!pt0NkJdNGXnxbfLt"
+}

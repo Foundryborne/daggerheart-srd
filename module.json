@@ -120,7 +120,7 @@
             "label": "Adversaries",
             "system": "daggerheart",
             "path": "packs/adversaries.db",
-            "type": "Item",
+            "type": "Actor",
             "private": false,
             "flags": {}
         },

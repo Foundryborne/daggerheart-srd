@@ -1,0 +1,292 @@
+{
+  "name": "Tangle Bramble Swarm",
+  "type": "adversary",
+  "_id": "Q60bNkL93CZxsvn1",
+  "img": "icons/magic/nature/root-vines-knot-brown.webp",
+  "system": {
+    "tier": "tier1",
+    "type": "horde",
+    "notes": "",
+    "difficulty": 12,
+    "hordeHp": 3,
+    "damageThresholds": {
+      "major": 0,
+      "severe": 0
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 6
+      },
+      "stress": {
+        "value": 0,
+        "max": 3
+      }
+    },
+    "actions": [
+      {
+        "_id": "BDTTdRYTDYAkYjn8",
+        "type": "effect",
+        "name": "Horde (1d4+2)",
+        "img": "icons/magic/nature/root-vines-knot-brown.webp",
+        "systemPath": "actions",
+        "description": "<p>When the Swarm has marked half or more of their HP, their standard attack deals [[1d4+2]] physical damage instead.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "AvpDCnPf97OyRS2l",
+        "type": "effect",
+        "name": "Crush",
+        "img": "icons/magic/nature/root-vines-knot-brown.webp",
+        "systemPath": "actions",
+        "description": "<p><strong>Mark a Stress</strong> to deal [[2d6+8]] direct physical damage to a target with 3 or more bramble tokens.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "cRY10vRg3Xk7oaH2",
+        "type": "effect",
+        "name": "Encumber",
+        "img": "icons/magic/nature/root-vines-knot-brown.webp",
+        "systemPath": "actions",
+        "description": "<p>When the Swarm succeeds on an attack, give the target a bramble token. If a target has any bramble tokens, they are Restrained. If a target has 3 or more bramble tokens, they are also Vulnerable. All bramble tokens can be removed by succeeding on a Finesse Roll (12 + the number of bramble tokens) or dealing Major or greater damage to the Swarm. If bramble tokens are removed from a target using a Finesse Roll, a number of Tangle Bramble Minions spawn within Melee range equal to the number of tokens removed.</p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "attack": {
+      "name": "Thorns",
+      "_id": "2QohBg76AnF2unXf",
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "type": "weapon",
+        "trait": null,
+        "difficulty": null,
+        "bonus": null,
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": "above",
+          "treshold": 1
+        }
+      },
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "custom": {
+                "enabled": false
+              },
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": 3
+            },
+            "type": "physical",
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false
+              }
+            }
+          }
+        ],
+        "includeBase": false
+      },
+      "description": "",
+      "chatDisplay": true,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": 10,
+        "damageMod": "none"
+      },
+      "img": "icons/magic/nature/root-vines-knot-brown.webp"
+    },
+    "experiences": {
+      "l6r6pycCWyLYqOSP": {
+        "name": "Camouflage",
+        "modifier": 2
+      }
+    },
+    "bonuses": {
+      "difficulty": {
+        "all": 0,
+        "reaction": 0
+      }
+    },
+    "description": "A cluster of animate, blood-drinking tumbleweeds, each the size of a large gourd.",
+    "motivesAndTactics": "Digest, entangle, immobilize"
+  },
+  "prototypeToken": {
+    "name": "Tangle Bramble Swarm",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/magic/nature/root-vines-knot-brown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.health"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "zY9tw00qJio5l0zR",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751480406357,
+    "modifiedTime": 1751480904126,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!actors!Q60bNkL93CZxsvn1"
+}

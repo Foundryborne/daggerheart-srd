@@ -6,7 +6,25 @@
   "system": {
     "tier": "tier1",
     "difficulty": 12,
-    "potentialAdversaries": {},
+    "potentialAdversaries": {
+      "3WF4Y8LSQl0G7v30": {
+        "label": "Jagged Knife Bandits",
+        "adversaries": [
+          "Compendium.daggerheart-srd.adversaries.Actor.e5MpJYO8hzeVCJWD",
+          "Compendium.daggerheart-srd.adversaries.Actor.7p4oXbLVmjpvbF0s",
+          "Compendium.daggerheart-srd.adversaries.Actor.xn51Fj1ILi7QzEmR",
+          "Compendium.daggerheart-srd.adversaries.Actor.oUflw5w1RfCaWnsL",
+          "Compendium.daggerheart-srd.adversaries.Actor.ndBKuhIYcnZSRmNF",
+          "Compendium.daggerheart-srd.adversaries.Actor.QfGNzaTgiHWOJegx"
+        ]
+      },
+      "mgUzwtJSzPTbPdWC": {
+        "label": "Other",
+        "adversaries": [
+          "Compendium.daggerheart-srd.adversaries.Actor.Mr5LxQ5zXs1bUoSZ"
+        ]
+      }
+    },
     "actions": [
       {
         "_id": "x0sC7ahxEZ1XHra2",
@@ -235,7 +253,7 @@
     "systemId": "daggerheart",
     "systemVersion": "0.0.1",
     "createdTime": 1751465301019,
-    "modifiedTime": 1751466319621,
+    "modifiedTime": 1751483502881,
     "lastModifiedBy": "FoKVSo75fC01UKLZ"
   },
   "_key": "!actors!EWVFRE2V5P8Oei32"
