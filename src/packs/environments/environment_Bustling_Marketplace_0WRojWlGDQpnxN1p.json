@@ -1,0 +1,220 @@
+{
+  "name": "Bustling Marketplace",
+  "type": "environment",
+  "_id": "0WRojWlGDQpnxN1p",
+  "img": "icons/environment/settlement/market-stall.webp",
+  "system": {
+    "tier": "tier1",
+    "difficulty": 10,
+    "potentialAdversaries": {},
+    "actions": [
+      {
+        "_id": "GlMd4HWOQn8AVRvr",
+        "type": "effect",
+        "name": "Tip the Scales",
+        "img": "icons/environment/settlement/market-stall.webp",
+        "systemPath": "actions",
+        "description": "<p>PCs can gain advantage on a Presence Roll by offering a handful of gold as part of the interaction.</p><p><em>Will any coin be accepted\u001c or only local currency? How overt are the PCs in offering this bribe?</em></p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "zFy1E7vd4DZl3LKV",
+        "type": "effect",
+        "name": "Unexpected Find",
+        "img": "icons/environment/settlement/market-stall.webp",
+        "systemPath": "actions",
+        "description": "<p>Reveal to the PCs that one of the merchants has something they want or need, such as food from their home, a rare book, magical components, a dubious treasure map, or a magical key.</p><p><em>What cost beyond gold will the merchant ask for in exchange for this rarity?</em></p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "nrrvF7iiM9lyI6sk",
+        "type": "effect",
+        "name": "Sticky Fingers",
+        "img": "icons/environment/settlement/market-stall.webp",
+        "systemPath": "actions",
+        "description": "<p>A thief tries to steal something from a PC.</p><p>The PC must succeed on an Instinct Roll to notice the thief or lose an item of the GM’s choice as the thief escapes to a Close distance. To retrieve the stolen item, the PCs must complete a Progress Countdown (6) to chase down the thief before the thief completes a Consequence Countdown (4) and escapes to their hideout.</p><p><em>What drove this person to pickpocketing? Where is the thief’s hideout and how has it avoided notice?</em></p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "1UmBLSJs461vjyFJ",
+        "type": "effect",
+        "name": "Crowd Closes In",
+        "img": "icons/environment/settlement/market-stall.webp",
+        "systemPath": "actions",
+        "description": "<p>When one of the PCs splits from the group, the crowds shift and cut them off from the party.</p><p><em>Where does the crowd’s movement carry them? How do they feel about being alone but surrounded?</em></p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "notes": "",
+    "description": "The economic heart of the settlement, with local artisans, traveling merchants, and patrons across social classes.",
+    "impulses": "Buy low, and sell high, tempt and tantalize with wares from near and far",
+    "type": "social"
+  },
+  "prototypeToken": {
+    "name": "Bustling Marketplace",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/environment/settlement/market-stall.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.health"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "tZvOMcSZ0mkIQcK6",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751463696517,
+    "modifiedTime": 1751466316025,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!actors!0WRojWlGDQpnxN1p"
+}

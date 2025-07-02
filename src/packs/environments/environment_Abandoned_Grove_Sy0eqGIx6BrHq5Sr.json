@@ -1,0 +1,210 @@
+{
+  "name": "Abandoned Grove",
+  "type": "environment",
+  "_id": "Sy0eqGIx6BrHq5Sr",
+  "img": "icons/environment/wilderness/tree-oak.webp",
+  "system": {
+    "tier": "tier1",
+    "difficulty": 11,
+    "potentialAdversaries": {},
+    "actions": [
+      {
+        "_id": "UyFfFUNTeiv5uiuO",
+        "type": "effect",
+        "name": "Overgrown Battlefield",
+        "img": "icons/environment/wilderness/tree-oak.webp",
+        "systemPath": "actions",
+        "description": "<p>There has been a battle here. A PC can make an Instinct Roll to identify evidence of that fight. On a success with Hope, learn all three pieces of information below. On a success with Fear, learn two. On a failure, a PC can mark a Stress to learn one and gain advantage on the next action roll to investigate this environment. A PC with an appropriate background or Experience can learn an additional detail and ask a follow-up question about the scene and get a truthful (if not always complete) answer.</p><p>• Traces of a battle (broken weapons and branches, gouges in the ground) litter the ground.</p><p>• A moss-covered tree trunk is actually the corpse of a treant.</p><p>• Still-standing trees are twisted in strange ways, as if by powerful magic.</p><p><em>Why did these groups come to blows? Why is the grove unused now?</em></p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "uo8A4kP7BsS1Z7I6",
+        "type": "effect",
+        "name": "Barbed Vines",
+        "img": "icons/environment/wilderness/tree-oak.webp",
+        "systemPath": "actions",
+        "description": "<p>Pick a point within the grove. All targets within Very Close range of that point must succeed on an Agility Reaction Roll or take [[1d8+3]] physical damage and become Restrained by barbed vines. Restrained lasts until they’re freed with a successful Finesse or Strength roll or by dealing at least 6 damage to the vines.</p><p><em>How many vines are there? Where do they grab you? Do they pull you down or lift you off the ground?</em></p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "range": "veryClose"
+      },
+      {
+        "_id": "tSckrYrTef9MNPi9",
+        "type": "summon",
+        "name": "You Are Not Welcome Here",
+        "img": "icons/environment/wilderness/tree-oak.webp",
+        "systemPath": "actions",
+        "description": "<p>A Young Dryad, two Sylvan Soldiers, and a number of Minor Treants equal to the number of PCs appear to confront the party for their intrusion.</p><p><em>What are the grove guardians concealing? What threat to the forest could the PCs confront to appease the Dryad?</em></p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "documentUUID": null
+      },
+      {
+        "_id": "HnIsNTZG6jebw5RS",
+        "type": "summon",
+        "name": "Defiler",
+        "img": "icons/environment/wilderness/tree-oak.webp",
+        "systemPath": "actions",
+        "description": "<p>Spend a Fear to summon a Minor Chaos Elemental drawn to the echoes of violence and discord. They appear within Far range of a chosen PC and immediately take the spotlight.</p><p><em>What color does the grass turn as the elemental appears? How does the chaos warp insects and small wildlife within the grove?</em></p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "documentUUID": null
+      }
+    ],
+    "notes": "",
+    "description": "A former druidic grove lying fallow and fully reclaimed by nature.",
+    "impulses": "Draw in the curious, echo the past",
+    "type": "exploration"
+  },
+  "prototypeToken": {
+    "name": "Abandoned Grove",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/environment/wilderness/tree-oak.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.health"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "tZvOMcSZ0mkIQcK6",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751462519898,
+    "modifiedTime": 1751466313846,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!actors!Sy0eqGIx6BrHq5Sr"
+}

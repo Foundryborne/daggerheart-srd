@@ -1,0 +1,256 @@
+{
+  "folder": "glNxRS6EhsI2mnZ3",
+  "name": "Hallowed Temple",
+  "type": "environment",
+  "_id": "UANOIDXPikE9hxBk",
+  "img": "icons/environment/settlement/palast.webp",
+  "system": {
+    "tier": "tier2",
+    "difficulty": 13,
+    "potentialAdversaries": {},
+    "actions": [
+      {
+        "_id": "H0iG4dlAoxOq6DK8",
+        "type": "healing",
+        "name": "A Place of Healing",
+        "img": "icons/environment/settlement/palast.webp",
+        "systemPath": "actions",
+        "description": "<p>A PC who takes a rest in the Hallowed Temple automatically clears all HP.</p><p>What does the incense smell like? What kinds of songs do the acolytes sing?</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "target": {
+          "type": "friendly",
+          "amount": null
+        },
+        "effects": [],
+        "healing": {
+          "type": "hitPoints",
+          "resultBased": false,
+          "value": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": true,
+              "formula": "100"
+            }
+          },
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "range": ""
+      },
+      {
+        "_id": "3Gm0ho8LpoAMpPaC",
+        "type": "effect",
+        "name": "Divine Guidance",
+        "img": "icons/environment/settlement/palast.webp",
+        "systemPath": "actions",
+        "description": "<p>A PC who prays to a deity while in the Hallowed Temple can make an Instinct Roll to receive answers.</p><p>If the god they beseech isn’t welcome in this temple, the roll is made with disadvantage.</p><p>• Critical Success: The PC gains clear information. Additionally, they gain [[1d4]] Hope, which can be distributed between the party if they share the vision and guidance they received.</p><p>• Success with Hope: The PC receives clear information.</p><p>• Success with Fear: The PC receives brief flashes of insight and an emotional impression conveying an answer.</p><p>• Any Failure: The PC receives only vague flashes. They can mark a Stress to receive one clear image without context.</p><p><em>What does it feel like as you are touched by this vision? What feeling lingers after the images have passed?</em></p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "5jusE9nsYIYINkQk",
+        "type": "effect",
+        "name": "Relentless Hope",
+        "img": "icons/environment/settlement/palast.webp",
+        "systemPath": "actions",
+        "description": "<p>Once per scene, each PC can mark a Stress to turn a result with Fear into a result with Hope.</p><p><em>What emotions or memories do you connect with when fear presses in?</em></p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "1JxStf9HYFuHtnrw",
+        "type": "effect",
+        "name": "Divine Censure",
+        "img": "icons/environment/settlement/palast.webp",
+        "systemPath": "actions",
+        "description": "<p>When the PCs have trespassed, blasphemed, or offended the clergy, you can spend a Fear to summon a High Seraph and [[1d4]] Bladed Guards within Close range of the senior priest to reinforce their will.</p><p><em>What symbols or icons do they bear that signal they are anointed agents of the divinity? Who leads the group and what led them to this calling?</em></p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "notes": "",
+    "description": "A bustling but well-kept temple that provides healing and hosts regular services, overseen by a priest or seraph.",
+    "impulses": "Connect the Mortal Realm with the Hallows Above, display the power of the divine, provide aid and succor to the faithful",
+    "type": "social"
+  },
+  "prototypeToken": {
+    "name": "Hallowed Temple",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/environment/settlement/palast.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.health"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751466348497,
+    "modifiedTime": 1751466597984,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!actors!UANOIDXPikE9hxBk"
+}

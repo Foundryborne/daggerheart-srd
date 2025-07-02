@@ -1,0 +1,23 @@
+{
+  "type": "Actor",
+  "folder": null,
+  "name": "Tier 1",
+  "color": null,
+  "sorting": "a",
+  "_id": "tZvOMcSZ0mkIQcK6",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751466311569,
+    "modifiedTime": 1751466311569,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!folders!tZvOMcSZ0mkIQcK6"
+}
