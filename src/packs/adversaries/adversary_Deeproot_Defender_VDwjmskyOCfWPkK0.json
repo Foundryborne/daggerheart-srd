@@ -1,0 +1,292 @@
+{
+  "folder": "zY9tw00qJio5l0zR",
+  "name": "Deeproot Defender",
+  "type": "adversary",
+  "_id": "VDwjmskyOCfWPkK0",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "tier": "tier1",
+    "type": "bruiser",
+    "notes": "",
+    "difficulty": 10,
+    "hordeHp": 1,
+    "damageThresholds": {
+      "major": 8,
+      "severe": 14
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 7
+      },
+      "stress": {
+        "value": 0,
+        "max": 3
+      }
+    },
+    "actions": [
+      {
+        "_id": "mcu6Z0c7cuVFnfiU",
+        "type": "effect",
+        "name": "Ground Slam",
+        "img": "icons/svg/mystery-man.svg",
+        "systemPath": "actions",
+        "description": "<p>Slam the ground, knocking all targets within Very Close range back to Far range. Each target knocked back this way must mark a Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "zD3VRCyHcY7vzijN",
+        "type": "attack",
+        "name": "Grab and Drag",
+        "img": "icons/svg/mystery-man.svg",
+        "systemPath": "actions",
+        "description": "<p>Make an attack against a target within Close range. On a success, <strong>spend a Fear</strong> to pull them into Melee range, deal [[1d6+2]] physical damage, and Restrain them until the Defender takes Severe damage.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "damage": {
+          "parts": [],
+          "includeBase": false
+        },
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "save": {
+          "trait": null,
+          "difficulty": 10,
+          "damageMod": "none"
+        },
+        "range": "close"
+      }
+    ],
+    "attack": {
+      "name": "Vines",
+      "_id": "2QohBg76AnF2unXf",
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "type": "weapon",
+        "trait": null,
+        "difficulty": null,
+        "bonus": 2,
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": "above",
+          "treshold": 1
+        }
+      },
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "custom": {
+                "enabled": false
+              },
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": 3
+            },
+            "type": "physical",
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false
+              }
+            }
+          }
+        ],
+        "includeBase": false
+      },
+      "description": "",
+      "chatDisplay": true,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": 10,
+        "damageMod": "none"
+      },
+      "img": "icons/svg/mystery-man.svg"
+    },
+    "experiences": {
+      "vDp7N1X6T3HrMeU1": {
+        "name": "Huge",
+        "modifier": 3
+      }
+    },
+    "bonuses": {
+      "difficulty": {
+        "all": 0,
+        "reaction": 0
+      }
+    },
+    "description": "A burly vegetable-person with grasping vines.",
+    "motivesAndTactics": "Ambush, grab, protect, pummel"
+  },
+  "prototypeToken": {
+    "name": "Deeproot Defender",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.health"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751472419226,
+    "modifiedTime": 1751480904126,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!actors!VDwjmskyOCfWPkK0"
+}

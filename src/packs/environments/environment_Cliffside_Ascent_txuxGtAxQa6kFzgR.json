@@ -6,7 +6,17 @@
   "system": {
     "tier": "tier1",
     "difficulty": 12,
-    "potentialAdversaries": {},
+    "potentialAdversaries": {
+      "hnFO6SRu1UTw8GBa": {
+        "label": "General",
+        "adversaries": [
+          "Compendium.daggerheart-srd.adversaries.Actor.8Mdsbg2BtS3M8Cb2",
+          "Compendium.daggerheart-srd.adversaries.Actor.VDwjmskyOCfWPkK0",
+          "Compendium.daggerheart-srd.adversaries.Actor.MK4fzMrGffYS3Qfz",
+          "Compendium.daggerheart-srd.adversaries.Actor.xeXSw0kWPKfuCYak"
+        ]
+      }
+    },
     "actions": [
       {
         "_id": "Ks74JN4VoqN0k0mL",
@@ -191,7 +201,7 @@
     "systemId": "daggerheart",
     "systemVersion": "0.0.1",
     "createdTime": 1751464249146,
-    "modifiedTime": 1751466316752,
+    "modifiedTime": 1751483217158,
     "lastModifiedBy": "FoKVSo75fC01UKLZ"
   },
   "_key": "!actors!txuxGtAxQa6kFzgR"

@@ -6,7 +6,31 @@
   "system": {
     "tier": "tier1",
     "difficulty": 10,
-    "potentialAdversaries": {},
+    "potentialAdversaries": {
+      "OannCStLsAlR4mY3": {
+        "label": "Guards",
+        "adversaries": [
+          "Compendium.daggerheart-srd.adversaries.Actor.SPan64G3I8uG9kPO",
+          "Compendium.daggerheart-srd.adversaries.Actor.ChPuGexsnlHOqy1f",
+          "Compendium.daggerheart-srd.adversaries.Actor.dqcu1z3S1tbrp410"
+        ]
+      },
+      "f1cKPYpVo0GRWSYl": {
+        "label": "Mercenaries",
+        "adversaries": [
+          "Compendium.daggerheart-srd.adversaries.Actor.A6KCOtZdmcNwZHMN",
+          "Compendium.daggerheart-srd.adversaries.Actor.dqcu1z3S1tbrp410",
+          "Compendium.daggerheart-srd.adversaries.Actor.oSiCHzlcHAHbjyOi",
+          "Compendium.daggerheart-srd.adversaries.Actor.3vpuZGGm0HqnIHON"
+        ]
+      },
+      "O2QcWGHCVUjTXHc2": {
+        "label": "Other",
+        "adversaries": [
+          "Compendium.daggerheart-srd.adversaries.Actor.Mr5LxQ5zXs1bUoSZ"
+        ]
+      }
+    },
     "actions": [
       {
         "_id": "bOVuOllvRLlMwILq",
@@ -235,7 +259,7 @@
     "systemId": "daggerheart",
     "systemVersion": "0.0.1",
     "createdTime": 1751464512346,
-    "modifiedTime": 1751466318074,
+    "modifiedTime": 1751483446996,
     "lastModifiedBy": "FoKVSo75fC01UKLZ"
   },
   "_key": "!actors!iK1s9NdawVjwfhy6"

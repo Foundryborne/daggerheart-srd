@@ -1,34 +1,37 @@
 {
-  "name": "Bustling Marketplace",
-  "type": "environment",
-  "_id": "0WRojWlGDQpnxN1p",
-  "img": "icons/environment/settlement/market-stall.webp",
+  "folder": "zY9tw00qJio5l0zR",
+  "name": "Giant Mosquitoes",
+  "type": "adversary",
+  "_id": "S6vw6uceEgoAoqVU",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "tier": "tier1",
+    "type": "horde",
+    "notes": "",
     "difficulty": 10,
-    "potentialAdversaries": {
-      "bLrskaDUQgsWhQOs": {
-        "label": "Guards",
-        "adversaries": [
-          "Compendium.daggerheart-srd.adversaries.Actor.SPan64G3I8uG9kPO",
-          "Compendium.daggerheart-srd.adversaries.Actor.ChPuGexsnlHOqy1f"
-        ]
+    "hordeHp": 5,
+    "damageThresholds": {
+      "major": 5,
+      "severe": 9
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 6
       },
-      "LaSw57iB4fLxX5w0": {
-        "label": "Other",
-        "adversaries": [
-          "Compendium.daggerheart-srd.adversaries.Actor.Mr5LxQ5zXs1bUoSZ"
-        ]
+      "stress": {
+        "value": 0,
+        "max": 3
       }
     },
     "actions": [
       {
-        "_id": "GlMd4HWOQn8AVRvr",
+        "_id": "8fG6LCfBIlULcaKh",
         "type": "effect",
-        "name": "Tip the Scales",
-        "img": "icons/environment/settlement/market-stall.webp",
+        "name": "Horde (1d4+1)",
+        "img": "icons/svg/mystery-man.svg",
         "systemPath": "actions",
-        "description": "<p>PCs can gain advantage on a Presence Roll by offering a handful of gold as part of the interaction.</p><p><em>Will any coin be accepted\u001c or only local currency? How overt are the PCs in offering this bribe?</em></p>",
+        "description": "<p>When the Mosquitoes have marked half or more of their HP, their standard attack deals [[1d4+1]] physical damage instead.</p>",
         "chatDisplay": true,
         "actionType": "passive",
         "cost": [],
@@ -45,14 +48,14 @@
         "range": ""
       },
       {
-        "_id": "zFy1E7vd4DZl3LKV",
+        "_id": "0mRsHm3mKX49qBXo",
         "type": "effect",
-        "name": "Unexpected Find",
-        "img": "icons/environment/settlement/market-stall.webp",
+        "name": "Flying",
+        "img": "icons/svg/mystery-man.svg",
         "systemPath": "actions",
-        "description": "<p>Reveal to the PCs that one of the merchants has something they want or need, such as food from their home, a rare book, magical components, a dubious treasure map, or a magical key.</p><p><em>What cost beyond gold will the merchant ask for in exchange for this rarity?</em></p>",
+        "description": "<p>While flying, the Mosquitoes have a +2 bonus to their Difficulty.</p>",
         "chatDisplay": true,
-        "actionType": "action",
+        "actionType": "passive",
         "cost": [],
         "uses": {
           "value": null,
@@ -67,34 +70,12 @@
         "range": ""
       },
       {
-        "_id": "nrrvF7iiM9lyI6sk",
+        "_id": "2gFjz3xRge8eoizJ",
         "type": "effect",
-        "name": "Sticky Fingers",
-        "img": "icons/environment/settlement/market-stall.webp",
+        "name": "Bloodsucker",
+        "img": "icons/svg/mystery-man.svg",
         "systemPath": "actions",
-        "description": "<p>A thief tries to steal something from a PC.</p><p>The PC must succeed on an Instinct Roll to notice the thief or lose an item of the GM’s choice as the thief escapes to a Close distance. To retrieve the stolen item, the PCs must complete a Progress Countdown (6) to chase down the thief before the thief completes a Consequence Countdown (4) and escapes to their hideout.</p><p><em>What drove this person to pickpocketing? Where is the thief’s hideout and how has it avoided notice?</em></p>",
-        "chatDisplay": true,
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null
-        },
-        "effects": [],
-        "target": {
-          "type": null,
-          "amount": null
-        },
-        "range": ""
-      },
-      {
-        "_id": "1UmBLSJs461vjyFJ",
-        "type": "effect",
-        "name": "Crowd Closes In",
-        "img": "icons/environment/settlement/market-stall.webp",
-        "systemPath": "actions",
-        "description": "<p>When one of the PCs splits from the group, the crowds shift and cut them off from the party.</p><p><em>Where does the crowd’s movement carry them? How do they feel about being alone but surrounded?</em></p>",
+        "description": "<p>When the Mosquitoes’ attack causes a target to mark HP, you can mark a Stress to force the target to mark an additional HP.</p>",
         "chatDisplay": true,
         "actionType": "reaction",
         "cost": [],
@@ -111,19 +92,97 @@
         "range": ""
       }
     ],
-    "notes": "",
-    "description": "The economic heart of the settlement, with local artisans, traveling merchants, and patrons across social classes.",
-    "impulses": "Buy low, and sell high, tempt and tantalize with wares from near and far",
-    "type": "social"
+    "attack": {
+      "name": "Proboscis",
+      "_id": "2QohBg76AnF2unXf",
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "type": "weapon",
+        "trait": null,
+        "difficulty": null,
+        "bonus": null,
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": "above",
+          "treshold": 1
+        }
+      },
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "custom": {
+                "enabled": false
+              },
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": 3
+            },
+            "type": "physical",
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false
+              }
+            }
+          }
+        ],
+        "includeBase": false
+      },
+      "description": "",
+      "chatDisplay": true,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": 10,
+        "damageMod": "none"
+      },
+      "img": "icons/svg/mystery-man.svg"
+    },
+    "experiences": {
+      "Sv3OVZyfaJgL2QFS": {
+        "name": "Camouflage",
+        "modifier": 2
+      }
+    },
+    "bonuses": {
+      "difficulty": {
+        "all": 0,
+        "reaction": 0
+      }
+    },
+    "description": "Dozens of fi st-sized mosquitoes, fl ying together for protection.",
+    "motivesAndTactics": "Fly away, harass, steal bloo"
   },
   "prototypeToken": {
-    "name": "Bustling Marketplace",
+    "name": "Giant Mosquitoes",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/environment/settlement/market-stall.webp",
+      "src": "icons/svg/mystery-man.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -212,8 +271,7 @@
   },
   "items": [],
   "effects": [],
-  "folder": "tZvOMcSZ0mkIQcK6",
-  "sort": 125000,
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "FoKVSo75fC01UKLZ": 3
@@ -226,9 +284,9 @@
     "coreVersion": "13.344",
     "systemId": "daggerheart",
     "systemVersion": "0.0.1",
-    "createdTime": 1751463696517,
-    "modifiedTime": 1751482817407,
+    "createdTime": 1751472879775,
+    "modifiedTime": 1751480904126,
     "lastModifiedBy": "FoKVSo75fC01UKLZ"
   },
-  "_key": "!actors!0WRojWlGDQpnxN1p"
+  "_key": "!actors!S6vw6uceEgoAoqVU"
 }

@@ -1,0 +1,336 @@
+{
+  "folder": "zY9tw00qJio5l0zR",
+  "name": "Green Ooze",
+  "type": "adversary",
+  "_id": "szSST1x2Cg6RSRWU",
+  "img": "icons/creatures/slimes/slime-bubble-green.webp",
+  "system": {
+    "tier": "tier1",
+    "type": "skulk",
+    "notes": "",
+    "difficulty": 8,
+    "hordeHp": 1,
+    "damageThresholds": {
+      "major": 5,
+      "severe": 10
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 5
+      },
+      "stress": {
+        "value": 0,
+        "max": 2
+      }
+    },
+    "actions": [
+      {
+        "_id": "sExotPR1XxNWTjJ8",
+        "type": "effect",
+        "name": "Slow",
+        "img": "icons/creatures/slimes/slime-blob-pseudopods-green.webp",
+        "systemPath": "actions",
+        "description": "<p>When you spotlight the Ooze and they don’t have a token on their stat block, they can’t act yet. Place a token on their stat block and describe what they’re preparing to do. When you spotlight the Ooze and they have a token on their stat block, clear the token and they can act.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "X634fYcTh6ZvyCBt",
+        "type": "effect",
+        "name": "Acidic Form",
+        "img": "icons/creatures/slimes/slime-blob-pseudopods-green.webp",
+        "systemPath": "actions",
+        "description": "<p>When the Ooze makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "mCtpz9bD3kHrDoaK",
+        "type": "attack",
+        "name": "Envelop",
+        "img": "icons/creatures/slimes/slime-blob-pseudopods-green.webp",
+        "systemPath": "actions",
+        "description": "<p>Make a standard attack against a target within Melee range. On a success, the Ooze envelops them and the target must mark 2 Stress. The target must mark an additional Stress when they make an action roll. If the Ooze takes Severe damage, the target is freed.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "damage": {
+          "parts": [],
+          "includeBase": false
+        },
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "save": {
+          "trait": null,
+          "difficulty": 10,
+          "damageMod": "none"
+        },
+        "range": ""
+      },
+      {
+        "_id": "g8ddcSU88i3Po6Lt",
+        "type": "effect",
+        "name": "Split",
+        "img": "icons/creatures/slimes/slime-blob-pseudopods-green.webp",
+        "systemPath": "actions",
+        "description": "<p>When the Ooze has 3 or more HP marked, you can spend a Fear to split them into two @UUID[Compendium.daggerheart-srd.adversaries.Actor.bciCC7qIP9vu6wdG]{Tiny Green Ooze} (with no marked HP or Stress). Immediately spotlight both of them.</p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "attack": {
+      "name": "Ooze Appendage",
+      "_id": "2QohBg76AnF2unXf",
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "type": "weapon",
+        "trait": null,
+        "difficulty": null,
+        "bonus": 1,
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": "above",
+          "treshold": 1
+        }
+      },
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "custom": {
+                "enabled": false
+              },
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": 1
+            },
+            "type": "magical",
+            "base": false,
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false
+              }
+            }
+          }
+        ],
+        "includeBase": false
+      },
+      "description": "",
+      "chatDisplay": true,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": 10,
+        "damageMod": "none"
+      },
+      "img": "icons/creatures/slimes/slime-blob-pseudopods-green.webp"
+    },
+    "experiences": {
+      "8LhodKP2FG9gW2DY": {
+        "name": "Camouflage",
+        "modifier": 3
+      }
+    },
+    "bonuses": {
+      "difficulty": {
+        "all": 0,
+        "reaction": 0
+      }
+    },
+    "description": "A moving mound of translucent green slime.",
+    "motivesAndTactics": "Camouflage, consume and multiply, creep up, envelop"
+  },
+  "prototypeToken": {
+    "name": "Green Ooze",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/creatures/slimes/slime-blob-pseudopods-green.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.health"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 2800000,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751477140996,
+    "modifiedTime": 1751480904126,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!actors!szSST1x2Cg6RSRWU"
+}

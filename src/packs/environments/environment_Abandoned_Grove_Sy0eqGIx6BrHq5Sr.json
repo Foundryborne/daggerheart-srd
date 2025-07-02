@@ -6,7 +6,24 @@
   "system": {
     "tier": "tier1",
     "difficulty": 11,
-    "potentialAdversaries": {},
+    "potentialAdversaries": {
+      "Jf0vu4sH7EKSBIib": {
+        "label": "Beasts",
+        "adversaries": [
+          "Compendium.daggerheart-srd.adversaries.Actor.CoBoGMtjf4YWSNOX",
+          "Compendium.daggerheart-srd.adversaries.Actor.HI7ICIptbtqggBeW",
+          "Compendium.daggerheart-srd.adversaries.Actor.xeXSw0kWPKfuCYak"
+        ]
+      },
+      "xDZN8qcciZurEq47": {
+        "label": "Grove Guardians",
+        "adversaries": [
+          "Compendium.daggerheart-srd.adversaries.Actor.6EgvLsJyRDSE4yK3",
+          "Compendium.daggerheart-srd.adversaries.Actor.dYVGT8Mb45B1K9Hd",
+          "Compendium.daggerheart-srd.adversaries.Actor.v3ehvA8kUDrF0thR"
+        ]
+      }
+    },
     "actions": [
       {
         "_id": "UyFfFUNTeiv5uiuO",
@@ -58,7 +75,7 @@
         "name": "You Are Not Welcome Here",
         "img": "icons/environment/wilderness/tree-oak.webp",
         "systemPath": "actions",
-        "description": "<p>A Young Dryad, two Sylvan Soldiers, and a number of Minor Treants equal to the number of PCs appear to confront the party for their intrusion.</p><p><em>What are the grove guardians concealing? What threat to the forest could the PCs confront to appease the Dryad?</em></p>",
+        "description": "<p>A @UUID[Compendium.daggerheart-srd.adversaries.Actor.v3ehvA8kUDrF0thR]{Young Dryad}, two @UUID[Compendium.daggerheart-srd.adversaries.Actor.dYVGT8Mb45B1K9Hd]{Sylvan Soldiers}, and a number of @UUID[Compendium.daggerheart-srd.adversaries.Actor.6EgvLsJyRDSE4yK3]{Minor Treants} equal to the number of PCs appear to confront the party for their intrusion.</p><p><em>What are the grove guardians concealing? What threat to the forest could the PCs confront to appease the Dryad?</em></p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -75,7 +92,7 @@
         "name": "Defiler",
         "img": "icons/environment/wilderness/tree-oak.webp",
         "systemPath": "actions",
-        "description": "<p>Spend a Fear to summon a Minor Chaos Elemental drawn to the echoes of violence and discord. They appear within Far range of a chosen PC and immediately take the spotlight.</p><p><em>What color does the grass turn as the elemental appears? How does the chaos warp insects and small wildlife within the grove?</em></p>",
+        "description": "<p>Spend a Fear to summon a @UUID[Compendium.daggerheart-srd.adversaries.Actor.hGdv2dIplhaPavVx]{Minor Chaos Elemental} drawn to the echoes of violence and discord. They appear within Far range of a chosen PC and immediately take the spotlight.</p><p><em>What color does the grass turn as the elemental appears? How does the chaos warp insects and small wildlife within the grove?</em></p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -203,7 +220,7 @@
     "systemId": "daggerheart",
     "systemVersion": "0.0.1",
     "createdTime": 1751462519898,
-    "modifiedTime": 1751466313846,
+    "modifiedTime": 1751482651948,
     "lastModifiedBy": "FoKVSo75fC01UKLZ"
   },
   "_key": "!actors!Sy0eqGIx6BrHq5Sr"
