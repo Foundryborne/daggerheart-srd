@@ -1,0 +1,31 @@
+{
+  "folder": "9qI57TTnWaZCrjD3",
+  "name": "Elemental Pet",
+  "type": "miscellaneous",
+  "_id": "jl6HpSWpLKnSV8kS",
+  "img": "icons/creatures/magical/spirit-mischief-fire-blue.webp",
+  "system": {
+    "description": "<p>A tiny, harmless elemental pet.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751398731224,
+    "modifiedTime": 1751398765888,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!jl6HpSWpLKnSV8kS"
+}

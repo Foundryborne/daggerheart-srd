@@ -1,0 +1,31 @@
+{
+  "folder": "W8TsTaHlvgObdrni",
+  "name": "Romance Novel",
+  "type": "miscellaneous",
+  "_id": "msxlj9rR5T6Yoosu",
+  "img": "icons/sundries/books/book-rounded-red.webp",
+  "system": {
+    "description": "<p>A steamy romance novel.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751395095212,
+    "modifiedTime": 1751395410108,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!msxlj9rR5T6Yoosu"
+}

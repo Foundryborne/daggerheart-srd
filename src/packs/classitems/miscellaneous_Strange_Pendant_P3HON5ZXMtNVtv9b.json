@@ -1,0 +1,31 @@
+{
+  "folder": "gONl4uv4TeAUYR33",
+  "name": "Strange Pendant",
+  "type": "miscellaneous",
+  "_id": "P3HON5ZXMtNVtv9b",
+  "img": "icons/equipment/neck/amulet-round-engraved-spiral-gold.webp",
+  "system": {
+    "description": "<p>A strange pendant found in the dirt.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751395547748,
+    "modifiedTime": 1751395664440,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!P3HON5ZXMtNVtv9b"
+}

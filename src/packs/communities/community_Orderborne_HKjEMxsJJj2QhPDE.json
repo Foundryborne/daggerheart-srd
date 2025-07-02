@@ -1,0 +1,53 @@
+{
+  "name": "Orderborne",
+  "type": "community",
+  "_id": "HKjEMxsJJj2QhPDE",
+  "img": "icons/environment/settlement/palast.webp",
+  "system": {
+    "description": "<p>Being part of an orderborne community means you’re from a collective that focuses on discipline or faith, and you uphold a set of principles that reflect your experience there.</p>",
+    "actions": [
+      {
+        "_id": "ZmCYXKfjUbFGbrrC",
+        "type": "effect",
+        "name": "Dedicated",
+        "img": "icons/environment/settlement/palast.webp",
+        "systemPath": "actions",
+        "description": "<p>Record three sayings or values your upbringing instilled in you. Once per rest, when you describe how you’re embodying one of these principles through your current action, you can roll a [[d20]] as your Hope Die.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751454447255,
+    "modifiedTime": 1751454485011,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!HKjEMxsJJj2QhPDE"
+}

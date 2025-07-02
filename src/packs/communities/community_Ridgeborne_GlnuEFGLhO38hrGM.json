@@ -1,0 +1,53 @@
+{
+  "name": "Ridgeborne",
+  "type": "community",
+  "_id": "GlnuEFGLhO38hrGM",
+  "img": "icons/environment/wilderness/cave-entrance-rocky.webp",
+  "system": {
+    "description": "<p>Being part of a ridgeborne community means you’ve called the rocky peaks and sharp cliffs of the mountainside home. </p>",
+    "actions": [
+      {
+        "_id": "sKAdEU5J8HgYexto",
+        "type": "effect",
+        "name": "Steady",
+        "img": "icons/environment/wilderness/cave-entrance-rocky.webp",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to traverse dangerous cliffs and ledges, navigate harsh environments, and use your survival knowledge.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751454497634,
+    "modifiedTime": 1751454530746,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!GlnuEFGLhO38hrGM"
+}

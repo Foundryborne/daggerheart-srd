@@ -1,0 +1,31 @@
+{
+  "folder": "605yRPK5xLKv7rLi",
+  "name": "Forgery Tools",
+  "type": "miscellaneous",
+  "_id": "CGhNmiNwE83u9NMe",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "system": {
+    "description": "<p>A set of forgery tools.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751395992987,
+    "modifiedTime": 1751396008083,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!CGhNmiNwE83u9NMe"
+}

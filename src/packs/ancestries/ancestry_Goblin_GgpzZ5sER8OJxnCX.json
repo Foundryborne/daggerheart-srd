@@ -1,0 +1,82 @@
+{
+  "name": "Goblin",
+  "type": "ancestry",
+  "_id": "GgpzZ5sER8OJxnCX",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "description": "<p>Goblins are small humanoids easily recognizable by their large eyes and massive membranous ears.</p>",
+    "actions": [
+      {
+        "_id": "5Nu9qoCqNLqG0sVs",
+        "type": "effect",
+        "name": "Surefooted",
+        "img": "icons/svg/cowled.svg",
+        "systemPath": "actions",
+        "description": "<p>You ignore disadvantage on Agility Rolls.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "hQKuaUlz18fbrLuV",
+        "type": "effect",
+        "name": "Danger Sense",
+        "img": "icons/svg/cowled.svg",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, mark a Stress to force an adversary to reroll an attack against you or an ally within Very Close range.</p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [
+          {
+            "type": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "recovery": "shortRest"
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": "veryClose"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751453686292,
+    "modifiedTime": 1751453751802,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!GgpzZ5sER8OJxnCX"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Slyborne",
+  "type": "community",
+  "_id": "lxxycilzk9wtoI9I",
+  "img": "icons/environment/settlement/hut.webp",
+  "system": {
+    "description": "<p>Being part of a slyborne community means you come from a group that operates outside the law, including all manner of criminals, grifters, and con artists.</p>",
+    "actions": [
+      {
+        "_id": "NE1SXh37n6RGjcty",
+        "type": "effect",
+        "name": "Scoundrel",
+        "img": "icons/environment/settlement/hut.webp",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to negotiate with criminals, detect lies, or find a safe place to hide.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751454587291,
+    "modifiedTime": 1751454632389,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!lxxycilzk9wtoI9I"
+}

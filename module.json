@@ -71,6 +71,15 @@
             "flags": {}
         },
         {
+            "name": "classitmes",
+            "label": "Class Items",
+            "system": "daggerheart",
+            "path": "packs/classitems.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
             "name": "weapons",
             "label": "Weapons",
             "system": "daggerheart",
@@ -141,7 +150,8 @@
                         "subclasses",
                         "domains",
                         "ancestries",
-                        "communities"
+                        "communities",
+			"classitems"
                     ]
                 },
                 {

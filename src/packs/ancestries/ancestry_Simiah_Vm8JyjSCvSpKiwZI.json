@@ -1,0 +1,75 @@
+{
+  "name": "Simiah",
+  "type": "ancestry",
+  "_id": "Vm8JyjSCvSpKiwZI",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "description": "<p>Simiah resemble anthropomorphic monkeys and apes with long limbs and prehensile feet.</p>",
+    "actions": [
+      {
+        "_id": "nl6LCtm3hzH6RbcU",
+        "type": "effect",
+        "name": "Natural Climber",
+        "img": "icons/svg/cowled.svg",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on Agility Rolls that involve balancing and climbing.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "3NwvzUUqh82l5lzA",
+        "type": "effect",
+        "name": "Nimble",
+        "img": "icons/svg/cowled.svg",
+        "systemPath": "actions",
+        "description": "<p>Gain a permanent +1 bonus to your Evasion at character creation.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751454188086,
+    "modifiedTime": 1751454225237,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!Vm8JyjSCvSpKiwZI"
+}
