@@ -1,0 +1,31 @@
+{
+  "folder": "W8TsTaHlvgObdrni",
+  "name": "Never Opened Letter",
+  "type": "miscellaneous",
+  "_id": "u5JygHD2Z6L9IKQ7",
+  "img": "icons/sundries/documents/envelope-sealed-red-brown.webp",
+  "system": {
+    "description": "<p>A letter that has never been opened.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751395201255,
+    "modifiedTime": 1751395397701,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!u5JygHD2Z6L9IKQ7"
+}

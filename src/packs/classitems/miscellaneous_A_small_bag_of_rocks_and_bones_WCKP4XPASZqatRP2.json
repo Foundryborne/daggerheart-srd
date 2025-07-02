@@ -1,0 +1,31 @@
+{
+  "folder": "gONl4uv4TeAUYR33",
+  "name": "A small bag of rocks and bones",
+  "type": "miscellaneous",
+  "_id": "WCKP4XPASZqatRP2",
+  "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+  "system": {
+    "description": "<p>A small bag of rocks and bones </p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751395483274,
+    "modifiedTime": 1751395523376,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!WCKP4XPASZqatRP2"
+}

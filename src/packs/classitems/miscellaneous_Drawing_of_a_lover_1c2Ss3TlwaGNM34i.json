@@ -1,0 +1,31 @@
+{
+  "folder": "WFifV0iZlmGv3SdY",
+  "name": "Drawing of a lover",
+  "type": "miscellaneous",
+  "_id": "1c2Ss3TlwaGNM34i",
+  "img": "icons/sundries/scrolls/scroll-bound-sealed-red-white.webp",
+  "system": {
+    "description": "<p>The drawing of a lover.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751398386806,
+    "modifiedTime": 1751398458427,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!1c2Ss3TlwaGNM34i"
+}

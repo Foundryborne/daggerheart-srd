@@ -1,0 +1,31 @@
+{
+  "folder": "WFifV0iZlmGv3SdY",
+  "name": "Sharpening Stone",
+  "type": "miscellaneous",
+  "_id": "MRS6ohh66bBNNRzx",
+  "img": "icons/commodities/metal/ingot-copper.webp",
+  "system": {
+    "description": "<p>A sharpening stone.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751398476747,
+    "modifiedTime": 1751398592616,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!MRS6ohh66bBNNRzx"
+}

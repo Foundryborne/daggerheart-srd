@@ -1,0 +1,53 @@
+{
+  "name": "Highborne",
+  "type": "community",
+  "_id": "WGdJ0QXecPnwAZ7E",
+  "img": "icons/environment/settlement/watchtower-city.webp",
+  "system": {
+    "description": "<p>Being part of a highborne community means you’re accustomed to a life of elegance, opulence, and prestige within the upper echelons of society.</p>",
+    "actions": [
+      {
+        "_id": "bM7pABIqXd60UNcY",
+        "type": "effect",
+        "name": "Privilege",
+        "img": "icons/environment/settlement/watchtower-city.webp",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to consort with nobles, negotiate prices, or leverage your reputation to get what you want.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751454264654,
+    "modifiedTime": 1751454350243,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!WGdJ0QXecPnwAZ7E"
+}

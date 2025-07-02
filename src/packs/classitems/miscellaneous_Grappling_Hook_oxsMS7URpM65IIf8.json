@@ -1,0 +1,31 @@
+{
+  "folder": "605yRPK5xLKv7rLi",
+  "name": "Grappling Hook",
+  "type": "miscellaneous",
+  "_id": "oxsMS7URpM65IIf8",
+  "img": "icons/sundries/survival/climbing-anchor-steel-grey.webp",
+  "system": {
+    "description": "<p>A grappling hook.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751396029962,
+    "modifiedTime": 1751396162672,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!oxsMS7URpM65IIf8"
+}

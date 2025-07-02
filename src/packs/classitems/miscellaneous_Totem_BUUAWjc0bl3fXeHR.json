@@ -1,0 +1,31 @@
+{
+  "folder": "lILTc7h7lGW9ffCM",
+  "name": "Totem",
+  "type": "miscellaneous",
+  "_id": "BUUAWjc0bl3fXeHR",
+  "img": "icons/commodities/treasure/figurine-bear.webp",
+  "system": {
+    "description": "<p>A totem from your mentor.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751395695364,
+    "modifiedTime": 1751395749505,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!BUUAWjc0bl3fXeHR"
+}

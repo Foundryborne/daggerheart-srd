@@ -1,0 +1,121 @@
+{
+  "name": "Drakona",
+  "type": "ancestry",
+  "_id": "wQptQVOMz4zI2SpQ",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "description": "<p>Drakona resemble wingless dragons in humanoid form and possess a powerful elemental breath. </p>",
+    "actions": [
+      {
+        "_id": "2nYewWFhuYnc0apn",
+        "type": "attack",
+        "name": "Elemental Breath",
+        "img": "icons/svg/acid.svg",
+        "systemPath": "actions",
+        "description": "<p>Choose an element for your breath (such as electricity, fire, or ice). You can use this breath against a target or group of targets within Very Close range, treating it as an Instinct weapon that deals d8 magic damage using your Proficiency.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "damage": {
+          "parts": [
+            {
+              "resultBased": false,
+              "value": {
+                "custom": {
+                  "enabled": false
+                },
+                "multiplier": "prof",
+                "dice": "d8",
+                "bonus": null,
+                "flatMultiplier": 1
+              },
+              "type": "magical",
+              "base": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false
+                }
+              }
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": "hostile",
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "weapon",
+          "trait": "instinct",
+          "difficulty": null,
+          "bonus": null,
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "save": {
+          "trait": null,
+          "difficulty": 10,
+          "damageMod": "none"
+        },
+        "range": "veryClose"
+      },
+      {
+        "_id": "IHk9aXp5DXd1bDXh",
+        "type": "effect",
+        "name": "Scales",
+        "img": "icons/svg/cowled.svg",
+        "systemPath": "actions",
+        "description": "<p>Your scales act as natural protection. When you would take Severe damage, you can mark a Stress to mark 1 fewer Hit Points.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751398974438,
+    "modifiedTime": 1751453250347,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!wQptQVOMz4zI2SpQ"
+}

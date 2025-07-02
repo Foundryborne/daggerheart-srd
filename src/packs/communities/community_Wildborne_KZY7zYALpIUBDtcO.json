@@ -1,0 +1,53 @@
+{
+  "name": "Wildborne",
+  "type": "community",
+  "_id": "KZY7zYALpIUBDtcO",
+  "img": "icons/environment/wilderness/tree-oak.webp",
+  "system": {
+    "description": "<p>Being part of a wildborne community means you lived deep within the forest.</p>",
+    "actions": [
+      {
+        "_id": "pof2KymnIMYT0Gyx",
+        "type": "effect",
+        "name": "Lightfoot",
+        "img": "icons/environment/wilderness/tree-oak.webp",
+        "systemPath": "actions",
+        "description": "<p>Your movement is naturally silent. You have advantage on rolls to move without being heard.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751454830045,
+    "modifiedTime": 1751454857777,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!KZY7zYALpIUBDtcO"
+}

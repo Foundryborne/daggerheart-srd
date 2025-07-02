@@ -1,0 +1,82 @@
+{
+  "name": "Infernis",
+  "type": "ancestry",
+  "_id": "eaB2vZ4e7ob9pOrZ",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "description": "<p>Infernis are humanoids who possess sharp canine teeth, pointed ears, and horns. They are the descendants of demons from the Circles Below.</p>",
+    "actions": [
+      {
+        "_id": "KsDLmNUHLs8XrnjL",
+        "type": "effect",
+        "name": "Fearless",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>When you roll with Fear, you can mark 2 Stress to change it into a roll with Hope instead.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "stress",
+            "value": 2,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "lUxmrK4zgshWdqoC",
+        "type": "effect",
+        "name": "Dread Visage",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to intimidate hostile creatures.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": "hostile",
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751453890866,
+    "modifiedTime": 1751453952124,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!eaB2vZ4e7ob9pOrZ"
+}

@@ -1,0 +1,31 @@
+{
+  "folder": "3NOQ5YdB4TcphPm7",
+  "name": "Bundle of Offerings",
+  "type": "miscellaneous",
+  "_id": "NGc5d9feglB7AYWP",
+  "img": "icons/containers/bags/case-scroll-leather-tan.webp",
+  "system": {
+    "description": "<p>A bundle of offerings.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751396199695,
+    "modifiedTime": 1751396338272,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!NGc5d9feglB7AYWP"
+}

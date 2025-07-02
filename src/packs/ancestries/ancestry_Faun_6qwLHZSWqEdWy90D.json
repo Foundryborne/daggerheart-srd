@@ -1,0 +1,82 @@
+{
+  "name": "Faun",
+  "type": "ancestry",
+  "_id": "6qwLHZSWqEdWy90D",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "description": "<p>Fauns resemble humanoid goats with curving horns, square pupils, and cloven hooves.</p>",
+    "actions": [
+      {
+        "_id": "ylNGxkCdlN1TGCND",
+        "type": "effect",
+        "name": "Caprine Leap",
+        "img": "icons/svg/cowled.svg",
+        "systemPath": "actions",
+        "description": "<p>You can leap anywhere within Close range as though you were using normal movement, allowing you to vault obstacles, jump across gaps, or scale barriers with ease.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": "close"
+      },
+      {
+        "_id": "CdIwKYjmBOG1Ds4k",
+        "type": "effect",
+        "name": "Kick",
+        "img": "icons/svg/cowled.svg",
+        "systemPath": "actions",
+        "description": "<p>When you succeed on an attack against a target within Melee range, you can mark a Stress to kick yourself off them, dealing an extra [[2d6]] damage and knocking back either yourself or the target to Very Close range.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": "hostile",
+          "amount": 1
+        },
+        "range": "melee"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751453265156,
+    "modifiedTime": 1751453390779,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!6qwLHZSWqEdWy90D"
+}

@@ -1,0 +1,31 @@
+{
+  "folder": "9qI57TTnWaZCrjD3",
+  "name": "Book",
+  "type": "miscellaneous",
+  "_id": "uUHRLaLQ4Tzav6Lr",
+  "img": "icons/sundries/books/book-worn-blue.webp",
+  "system": {
+    "description": "<p>A book you’re trying to translate.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751398615985,
+    "modifiedTime": 1751398650018,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!uUHRLaLQ4Tzav6Lr"
+}

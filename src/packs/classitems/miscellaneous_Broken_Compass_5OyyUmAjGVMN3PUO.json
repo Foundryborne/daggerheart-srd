@@ -1,0 +1,31 @@
+{
+  "folder": "QPLv36tRvoQ49AoZ",
+  "name": "Broken Compass",
+  "type": "miscellaneous",
+  "_id": "5OyyUmAjGVMN3PUO",
+  "img": "icons/tools/navigation/compass-worn-copper.webp",
+  "system": {
+    "description": "<p>A seemingly broken compass.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751395913254,
+    "modifiedTime": 1751395961421,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!5OyyUmAjGVMN3PUO"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Wizard",
+  "color": null,
+  "sorting": "a",
+  "_id": "9qI57TTnWaZCrjD3",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751398598659,
+    "modifiedTime": 1751398598659,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!folders!9qI57TTnWaZCrjD3"
+}

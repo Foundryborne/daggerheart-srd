@@ -1,0 +1,53 @@
+{
+  "name": "Seaborne",
+  "type": "community",
+  "_id": "73LIvyRN6NqtvJTZ",
+  "img": "icons/environment/wilderness/island.webp",
+  "system": {
+    "description": "<p>Being part of a seaborne community means you lived on or near a large body of water.</p>",
+    "actions": [
+      {
+        "_id": "e3iYUGsTfzP0b5xp",
+        "type": "effect",
+        "name": "Know the Tide",
+        "img": "icons/environment/wilderness/island.webp",
+        "systemPath": "actions",
+        "description": "<p>You can sense the ebb and flow of life. When you roll with Fear, place a token on this card. You can hold a number of tokens equal to your level. Before you make an action roll, you can spend any number of these tokens to gain a +1 bonus to the roll for each token spent. At the end of each session, clear all unspent tokens.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751454543368,
+    "modifiedTime": 1751454569900,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!73LIvyRN6NqtvJTZ"
+}

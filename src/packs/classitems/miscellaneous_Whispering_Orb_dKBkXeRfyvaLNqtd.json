@@ -1,0 +1,31 @@
+{
+  "folder": "rhFun8qoInfY8zZX",
+  "name": "Whispering Orb",
+  "type": "miscellaneous",
+  "_id": "dKBkXeRfyvaLNqtd",
+  "img": "icons/commodities/treasure/crystal-ball-blue-purple.webp",
+  "system": {
+    "description": "<p>A whispering orb.</p>",
+    "quantity": 1,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751398261265,
+    "modifiedTime": 1751398310738,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!dKBkXeRfyvaLNqtd"
+}
