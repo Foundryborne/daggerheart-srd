@@ -1,0 +1,220 @@
+{
+  "folder": "glNxRS6EhsI2mnZ3",
+  "name": "Haunted City",
+  "type": "environment",
+  "_id": "92NRa3Gp2R9j3hS2",
+  "img": "icons/environment/settlement/city-night.webp",
+  "system": {
+    "tier": "tier2",
+    "difficulty": 14,
+    "potentialAdversaries": {},
+    "actions": [
+      {
+        "_id": "bu8CK7DEJBOMCo6V",
+        "type": "effect",
+        "name": "Buried Knowledge",
+        "img": "icons/environment/settlement/city-night.webp",
+        "systemPath": "actions",
+        "description": "<p>The city has countless mysteries to unfold. A PC who seeks knowledge about the fallen city can make an Instinct or Knowledge Roll to learn about this place and discover (potentially haunted) loot.</p><p>• Critical Success: Gain valuable information and a related useful item.</p><p>• Success with Hope: Gain valuable information.</p><p>• Success with Fear: Uncover vague or incomplete information.</p><p>• Any Failure: Mark a Stress to find a lead after an exhaustive search.</p><p><em>What greater secrets does the city contain? Why have so many ghosts lingered here? What doomed adventurers have met a bad fate here already?</em></p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "IIKa2T8lrUMy9oHq",
+        "type": "effect",
+        "name": "Ghostly Form",
+        "img": "icons/environment/settlement/city-night.webp",
+        "systemPath": "actions",
+        "description": "<p>Adversaries who appear here are of a ghostly form. They have resistance to physical damage and can mark a Stress to move up to Close range through solid objects.</p><p><em>What injuries to their physical form speak to their cause of death? What unfulfilled purpose holds them in the Mortal Plane?</em></p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "NnPWlduKRqywQt5A",
+        "type": "effect",
+        "name": "Dead Ends",
+        "img": "icons/environment/settlement/city-night.webp",
+        "systemPath": "actions",
+        "description": "<p>The ghosts of an earlier era manifest scenes from their bygone era, such as a street festival, a revolution, or a heist. These hauntings change the layout of the city around the PCs, blocking the way behind them, forcing a detour, or presenting them with a challenge, such as mistaking them for rival thieves during the heist.</p><p><em>What do the ghosts want from you? What do you need from them?</em></p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "oba78R496AXC0PG5",
+        "type": "effect",
+        "name": "Apocalypse Then",
+        "img": "icons/environment/settlement/city-night.webp",
+        "systemPath": "actions",
+        "description": "<p>Spend a Fear to manifest the echo of a past disaster that ravaged the city. Activate a Progress Countdown (5) as the disaster replays around the PCs. To complete the countdown and escape the catastrophe, the PCs must overcome threats such as rampaging fires, stampeding civilians, collapsing buildings, or crumbling streets, while recalling history and finding clues to escape the inevitable.</p><p><em>Is this the disaster that led the city to be abandoned? What is known about this disaster\u001c and how could that help the PCs escape?</em></p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "notes": "",
+    "description": "An abandoned city populated by the restless spirits of eras past.",
+    "impulses": "Misdirect and disorient, replay apocalypses both public and personal",
+    "type": "exploration"
+  },
+  "prototypeToken": {
+    "name": "Haunted City",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/environment/settlement/city-night.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.health"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751466614479,
+    "modifiedTime": 1751466827262,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!actors!92NRa3Gp2R9j3hS2"
+}

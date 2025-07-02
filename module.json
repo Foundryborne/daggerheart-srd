@@ -129,7 +129,7 @@
             "label": "Environments",
             "system": "daggerheart",
             "path": "packs/environments.db",
-            "type": "Item",
+            "type": "Actor",
             "private": false,
             "flags": {}
         }
