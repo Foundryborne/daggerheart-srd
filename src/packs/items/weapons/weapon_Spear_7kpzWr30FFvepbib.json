@@ -1,0 +1,112 @@
+{
+  "folder": "AEB3edPW1M1CYsQ0",
+  "name": "Spear",
+  "type": "weapon",
+  "_id": "7kpzWr30FFvepbib",
+  "img": "icons/weapons/polearms/spear-flared-worn.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "tier": 1,
+    "equipped": false,
+    "secondary": false,
+    "trait": "finesse",
+    "range": "veryClose",
+    "burden": "twoHanded",
+    "damage": {
+      "value": "",
+      "type": "physical"
+    },
+    "features": [],
+    "actions": [
+      {
+        "_id": "myavWYoNKSLizHXE",
+        "type": "attack",
+        "name": "Spear",
+        "img": "icons/weapons/polearms/spear-flared-worn.webp",
+        "roll": {
+          "type": "weapon",
+          "trait": "finesse",
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "parts": [
+            {
+              "resultBased": false,
+              "value": {
+                "custom": {
+                  "enabled": false
+                },
+                "multiplier": "prof",
+                "dice": "d8",
+                "bonus": 3,
+                "flatMultiplier": 1
+              },
+              "type": "physical",
+              "base": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
+        },
+        "range": "veryClose",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "target": {
+          "type": "hostile",
+          "amount": 1
+        },
+        "effects": [],
+        "save": {
+          "trait": null,
+          "difficulty": 10,
+          "damageMod": "none"
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751485948128,
+    "modifiedTime": 1751531042883,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!7kpzWr30FFvepbib"
+}

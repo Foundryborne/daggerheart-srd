@@ -1,0 +1,59 @@
+{
+  "folder": "pk4xXE8D3vTawrqj",
+  "name": "Body Basher",
+  "type": "domainCard",
+  "_id": "vRfbFQ1A93guMRG6",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You use the full force of your body in a fight. On a successful attack using a weapon with a Melee range, gain a bonus to your damage roll equal to your Strength.</p>",
+    "domain": "valor",
+    "level": 2,
+    "recallCost": 1,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "h8IFyMwmmFQo7ZmD",
+        "type": "effect",
+        "name": "Body Basher",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>You use the full force of your body in a fight. On a successful attack using a weapon with a Melee range, gain a bonus to your damage roll equal to your Strength.</p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751640885333,
+    "modifiedTime": 1751640925897,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!vRfbFQ1A93guMRG6"
+}

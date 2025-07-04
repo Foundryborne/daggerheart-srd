@@ -1,0 +1,204 @@
+{
+  "folder": "tqhasjtHBX0F20lN",
+  "name": "Book of Ava",
+  "type": "domainCard",
+  "_id": "IedQbGJ7d0YsA0Rw",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>After a long rest, place a number of tokens equal to your Knowledge on this card (minimum 1). The first time you move within Close range of an adversary and make an attack against them, you can spend one token to choose one of the following options:</p><ul><li class=\"vertical-card-list-found\"><p>You make the attack with advantage.</p></li><li class=\"vertical-card-list-found\"><p>You clear a Stress on an ally within Melee range of the adversary.</p></li><li class=\"vertical-card-list-found\"><p>You add a <strong>d8</strong> to your damage roll.</p></li></ul><p class=\"Body-Foundation\">When you take a long rest, clear all unspent tokens.</p>",
+    "domain": "codex",
+    "level": 1,
+    "recallCost": 2,
+    "type": "grimoire",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "kGKX5FjLvavz5RPY",
+        "type": "attack",
+        "name": "Power Push",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Melee range. On a success, they’re knocked back to Far range and take <strong>d10+2</strong> magic damage using your Proficiency.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "custom": {
+                  "enabled": false
+                },
+                "multiplier": "prof",
+                "dice": "d10",
+                "bonus": 2,
+                "flatMultiplier": 1
+              },
+              "type": "magical",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false
+                }
+              }
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "save": {
+          "trait": null,
+          "difficulty": 10,
+          "damageMod": "none"
+        },
+        "range": "melee"
+      },
+      {
+        "_id": "3lc5hRRAaJECDlK6",
+        "type": "effect",
+        "name": "Tava's Armor",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p><strong>Spend a Hope</strong> to give a target you can touch a +1 bonus to their Armor Score until their next rest or you cast Tava’s Armor again.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": "melee"
+      },
+      {
+        "_id": "MdcaZOnx5ZQtDhj6",
+        "type": "attack",
+        "name": "Ice Spike",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>Make a <strong>Spellcast Roll (12)</strong> to summon a large ice spike within Far range. If you use it as a weapon, make the Spellcast Roll against the target’s Difficulty instead. On a success, deal <strong>d6</strong> physical damage using your Proficiency.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "damage": {
+          "parts": [
+            {
+              "base": false,
+              "type": "physical",
+              "resultBased": false,
+              "value": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false
+                }
+              },
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false
+                }
+              }
+            }
+          ],
+          "includeBase": false
+        },
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": 12,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "save": {
+          "trait": null,
+          "difficulty": 10,
+          "damageMod": "none"
+        },
+        "range": "far"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751635302471,
+    "modifiedTime": 1751635579103,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!IedQbGJ7d0YsA0Rw"
+}

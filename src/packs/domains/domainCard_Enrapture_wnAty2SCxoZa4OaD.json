@@ -1,0 +1,66 @@
+{
+  "folder": "nVCKcZkcoEivYJaF",
+  "name": "Enrapture",
+  "type": "domainCard",
+  "_id": "wnAty2SCxoZa4OaD",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become temporarily <em>Enraptured</em>. While <em>Enraptured</em>, a target’s attention is fixed on you, narrowing their field of view and drowning out any sound but your voice. Once per rest on a success, you can <strong>mark a Stress</strong> to force the <em>Enraptured</em> target to mark a Stress as well.</p>",
+    "domain": "grace",
+    "level": 1,
+    "recallCost": 0,
+    "type": "spell",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "vLrSBS7hWO94QVDl",
+        "type": "effect",
+        "name": "Enrapture",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become temporarily <em>Enraptured</em>. While <em>Enraptured</em>, a target’s attention is fixed on you, narrowing their field of view and drowning out any sound but your voice. Once per rest on a success, you can <strong>mark a Stress</strong> to force the <em>Enraptured</em> target to mark a Stress as well.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": "close"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751637515937,
+    "modifiedTime": 1751637788466,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!wnAty2SCxoZa4OaD"
+}

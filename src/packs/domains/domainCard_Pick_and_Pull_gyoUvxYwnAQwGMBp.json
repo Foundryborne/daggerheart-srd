@@ -1,0 +1,36 @@
+{
+  "folder": "sCiN7DoysdKceIMd",
+  "name": "Pick and Pull",
+  "type": "domainCard",
+  "_id": "gyoUvxYwnAQwGMBp",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<div class=\"card-title-container MuiBox-root css-5qpzep\"><div class=\"card-title MuiBox-root css-0\"><p class=\"MuiTypography-root MuiTypography-body1 card-title-text css-ye98iv\"></p></div><div class=\"card-title-badge MuiBox-root css-0\"><p></p></div></div><div class=\"card-content MuiBox-root css-0\"><p class=\"MuiTypography-root MuiTypography-body1 card-content-text css-ye98iv\"></p><p class=\"Body-Foundation\">You have advantage on action rolls to pick nonmagical locks, disarm nonmagical traps, or steal items from a target (either through stealth or by force).</p><p></p></div>",
+    "domain": "midnight",
+    "level": 1,
+    "recallCost": 0,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751638399478,
+    "modifiedTime": 1751638467706,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!gyoUvxYwnAQwGMBp"
+}

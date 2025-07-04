@@ -1,0 +1,59 @@
+{
+  "folder": "o7t2fsAmRxKLoHrO",
+  "name": "A Soldier's Bond",
+  "type": "domainCard",
+  "_id": "9xJUYbNiB4meQ6tT",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p class=\"Body-Foundation\">Once per long rest, when you compliment someone or ask them about something they’re good at, you can both gain 3 Hope.</p>",
+    "domain": "blade",
+    "level": 2,
+    "recallCost": 1,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "6tEMNVHcc0yMD0dq",
+        "type": "effect",
+        "name": "A Soldier's Bond",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when you compliment someone or ask them about something they’re good at, you can both gain 3 Hope.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "recovery": "longRest"
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751634483271,
+    "modifiedTime": 1751634551594,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!9xJUYbNiB4meQ6tT"
+}

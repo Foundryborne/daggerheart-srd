@@ -1,0 +1,59 @@
+{
+  "folder": "2yh8wuYprOyswf0r",
+  "name": "Final Words",
+  "type": "domainCard",
+  "_id": "LtVukmOJpCohDmBU",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "domain": "splendor",
+    "level": 2,
+    "recallCost": 1,
+    "type": "spell",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "4TPG3gmcMr8aM3NK",
+        "type": "effect",
+        "name": "Final Words",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>You can infuse a corpse with a moment of life to speak with it. Make a <strong>Spellcast Roll (13)</strong>. On a success with Hope, the corpse answers up to three questions. On a success with Fear, the corpse answers one question. The corpse answers truthfully, but it can’t impart information it didn’t know in life. On a failure, or once the corpse has finished answering your questions, the body turns to dust.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751640118218,
+    "modifiedTime": 1751640157652,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!LtVukmOJpCohDmBU"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Minor Stamina Potion",
+  "type": "consumable",
+  "_id": "7MIOEoHxZCqX7yai",
+  "img": "icons/consumables/potions/potion-tube-corked-green.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "actions": [
+      {
+        "_id": "r8i62EIO1GG26lDH",
+        "type": "healing",
+        "name": "Minor Stamina Potion",
+        "img": "icons/consumables/potions/potion-tube-corked-green.webp",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "effects": [],
+        "healing": {
+          "type": "stress",
+          "resultBased": false,
+          "value": {
+            "multiplier": "flat",
+            "flatMultiplier": 1,
+            "dice": "d4",
+            "bonus": null,
+            "custom": {
+              "enabled": false
+            }
+          },
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751642859377,
+    "modifiedTime": 1751643044686,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!7MIOEoHxZCqX7yai"
+}

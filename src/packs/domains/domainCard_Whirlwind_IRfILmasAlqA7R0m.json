@@ -1,0 +1,66 @@
+{
+  "folder": "9Xc6KzNyjDtTGZkp",
+  "name": "Whirlwind",
+  "type": "domainCard",
+  "_id": "IRfILmasAlqA7R0m",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you make a successful attack against a target within Very Close range, you can spend a Hope to use the attack against all other targets within Very Close range. All additional adversaries you succeed against with this ability take half damage.</p>",
+    "domain": "blade",
+    "level": 1,
+    "recallCost": 0,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "guRvwLyIdRbPHkQr",
+        "type": "effect",
+        "name": "Whirlwind",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751634387143,
+    "modifiedTime": 1751634443816,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!IRfILmasAlqA7R0m"
+}

@@ -1,0 +1,66 @@
+{
+  "folder": "PeeIjbkBv41613yZ",
+  "name": "Deft Maneuvers",
+  "type": "domainCard",
+  "_id": "3KyTCR8AzHh69XhC",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p class=\"Body-Foundation\">Once per rest,<strong> mark a Stress</strong> to sprint anywhere within Far range without making an Agility Roll to get there.</p><p></p><p></p><p class=\"Body-Foundation\">If you end this movement within Melee range of an adversary and immediately make an attack against them, gain a +1 bonus to the attack roll.</p>",
+    "domain": "bone",
+    "level": 1,
+    "recallCost": 0,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "yAkTLeQvoCYO7RYg",
+        "type": "effect",
+        "name": "Def Maneuvers",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>Once per rest,<strong> mark a Stress</strong> to sprint anywhere within Far range without making an Agility Roll to get there.</p><p class=\"Body-Foundation\">If you end this movement within Melee range of an adversary and immediately make an attack against them, gain a +1 bonus to the attack roll.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": 1,
+          "max": null,
+          "recovery": "shortRest"
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751634699941,
+    "modifiedTime": 1751634842988,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!3KyTCR8AzHh69XhC"
+}

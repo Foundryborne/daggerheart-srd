@@ -1,0 +1,36 @@
+{
+  "folder": "nVCKcZkcoEivYJaF",
+  "name": "Inspirational Words",
+  "type": "domainCard",
+  "_id": "QHH0qwK6AT7zg9Wg",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Your speech is imbued with power. After a long rest, place a number of tokens on this card equal to your Presence. When you speak with an ally, you can spend a token from this card to give them one benefit from the following options:</p><ul><li class=\"vertical-card-list-found\"><p>Your ally clears a Stress.</p></li><li class=\"vertical-card-list-found\"><p>Your ally clears a Hit Point.</p></li><li class=\"vertical-card-list-found\"><p>Your ally gains a Hope.</p></li></ul><p class=\"Body-Foundation\">When you take a long rest, clear all unspent tokens.</p>",
+    "domain": "grace",
+    "level": 1,
+    "recallCost": 1,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751637817734,
+    "modifiedTime": 1751637837610,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!QHH0qwK6AT7zg9Wg"
+}

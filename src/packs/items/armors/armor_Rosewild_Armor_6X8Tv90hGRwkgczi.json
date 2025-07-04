@@ -1,0 +1,48 @@
+{
+  "folder": "XP3TQDC5RPLweK0O",
+  "name": "Rosewild Armor",
+  "type": "armor",
+  "_id": "6X8Tv90hGRwkgczi",
+  "img": "icons/equipment/chest/robe-layered-red.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 5,
+    "features": [
+      {
+        "value": "hopeful",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 11,
+      "severe": 23
+    },
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751642598363,
+    "modifiedTime": 1751642620974,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!6X8Tv90hGRwkgczi"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "QpOL7jPbMBzH96qR",
+  "name": "Bare Bones",
+  "type": "domainCard",
+  "_id": "yfUGJYlU4gMDgHA6",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "domain": "valor",
+    "level": 1,
+    "recallCost": 0,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "c6WllZw7CxH7zVUa",
+        "type": "effect",
+        "name": "Bare Bones",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<div class=\"card-title-container MuiBox-root css-5qpzep\"><p class=\"Body-Foundation\">When you choose not to equip armor, you have a base Armor Score of 3 + your Strength and use the following as your base damage thresholds:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><em><strong>Tier 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Tier 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Tier 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Tier 4:</strong></em> 15/38</li></ul><p></p></div>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751640510177,
+    "modifiedTime": 1751640551478,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!yfUGJYlU4gMDgHA6"
+}

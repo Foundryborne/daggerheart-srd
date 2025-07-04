@@ -1,0 +1,59 @@
+{
+  "folder": "pu3xD4rEkdfdAvGc",
+  "name": "Tell No Lies",
+  "type": "domainCard",
+  "_id": "xaraCdUTou0XvTeX",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Make a <strong>Spellcast Roll </strong>against a target within Very Close range. On a success, they can’t lie to you while they remain within Close range, but they are not compelled to speak. If you ask them a question and they refuse to answer, they must mark a Stress and the effect ends. The target is typically unaware this spell has been cast on them until it causes them to utter the truth.</p>",
+    "domain": "grace",
+    "level": 2,
+    "recallCost": 1,
+    "type": "spell",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "OBblTgGHBGalYh5W",
+        "type": "effect",
+        "name": "Tell No Lies",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>Make a <strong>Spellcast Roll </strong>against a target within Very Close range. On a success, they can’t lie to you while they remain within Close range, but they are not compelled to speak. If you ask them a question and they refuse to answer, they must mark a Stress and the effect ends. The target is typically unaware this spell has been cast on them until it causes them to utter the truth.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": "veryClose"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751638058828,
+    "modifiedTime": 1751638114631,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!xaraCdUTou0XvTeX"
+}

@@ -1,0 +1,36 @@
+{
+  "folder": "9Xc6KzNyjDtTGZkp",
+  "name": "Not Good Enough",
+  "type": "domainCard",
+  "_id": "QG0qZ0q2F20sX9hS",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you roll your damage dice, you can reroll any 1s or 2s.</p>",
+    "domain": "blade",
+    "level": 1,
+    "recallCost": 1,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751634293209,
+    "modifiedTime": 1751634311054,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!QG0qZ0q2F20sX9hS"
+}

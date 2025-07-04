@@ -1,0 +1,89 @@
+{
+  "folder": "EMUbztsrPsvgPDh2",
+  "name": "Gambeson Armor",
+  "type": "armor",
+  "_id": "u1zKYSuCAWiZZDvk",
+  "img": "icons/equipment/chest/shirt-simple-grey.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "tier": 1,
+    "equipped": false,
+    "baseScore": 3,
+    "features": [
+      {
+        "value": "flexible",
+        "effectIds": [
+          "plWFX2zTQGWvcN9z"
+        ],
+        "actionIds": []
+      }
+    ],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 5,
+      "severe": 11
+    },
+    "actions": []
+  },
+  "effects": [
+    {
+      "name": "Flexible",
+      "description": "+1 to Evasion",
+      "changes": [
+        {
+          "key": "system.evasion.bonus",
+          "mode": 2,
+          "value": "1"
+        }
+      ],
+      "_id": "plWFX2zTQGWvcN9z",
+      "img": "icons/magic/life/heart-cross-blue.webp",
+      "type": "base",
+      "system": {},
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751641540082,
+        "modifiedTime": 1751641540082,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!u1zKYSuCAWiZZDvk.plWFX2zTQGWvcN9z"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751641484463,
+    "modifiedTime": 1751641540088,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!u1zKYSuCAWiZZDvk"
+}

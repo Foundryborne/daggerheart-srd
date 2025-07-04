@@ -1,0 +1,48 @@
+{
+  "folder": "XP3TQDC5RPLweK0O",
+  "name": "Irontree Breastplate Armor",
+  "type": "armor",
+  "_id": "byqOaCT01ePG3vAT",
+  "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 4,
+    "features": [
+      {
+        "value": "reinforced",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 9,
+      "severe": 20
+    },
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751642405200,
+    "modifiedTime": 1751642472641,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!byqOaCT01ePG3vAT"
+}
