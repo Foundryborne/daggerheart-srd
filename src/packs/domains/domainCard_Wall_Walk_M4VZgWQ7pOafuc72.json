@@ -1,0 +1,66 @@
+{
+  "folder": "o7kvw9NRGvDZSce2",
+  "name": "Wall Walk",
+  "type": "domainCard",
+  "_id": "M4VZgWQ7pOafuc72",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Spend a Hope to allow a creature you can touch to climb on walls and ceilings as easily as walking on the ground. This lasts until the end of the scene or you cast Wall Walk again. </p>",
+    "domain": "arcana",
+    "level": 1,
+    "recallCost": 1,
+    "type": "spell",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "3utSQZSdSv2FPOMJ",
+        "type": "effect",
+        "name": "Wall Walk",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": "friendly",
+          "amount": 1
+        },
+        "range": "melee"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751633665485,
+    "modifiedTime": 1751633759110,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!M4VZgWQ7pOafuc72"
+}

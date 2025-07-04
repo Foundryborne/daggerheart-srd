@@ -1,0 +1,66 @@
+{
+  "folder": "o7t2fsAmRxKLoHrO",
+  "name": "Reckless",
+  "type": "domainCard",
+  "_id": "myXEow5jjOkc59zk",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to gain advantage on an attack.</p>",
+    "domain": "blade",
+    "level": 2,
+    "recallCost": 1,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "7gm0q8xW6XiUqNDX",
+        "type": "effect",
+        "name": "Reckless",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p><strong>Mark a Stress</strong> to gain advantage on an attack.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751634603445,
+    "modifiedTime": 1751634655194,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!myXEow5jjOkc59zk"
+}

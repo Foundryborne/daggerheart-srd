@@ -1,0 +1,59 @@
+{
+  "folder": "Q9rmrfeKqcqBNnWc",
+  "name": "Strategic Approach",
+  "type": "domainCard",
+  "_id": "WMaDLVYe5IQu0uu1",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>After a long rest, place a number of tokens equal to your Knowledge on this card (minimum 1). The first time you move within Close range of an adversary and make an attack against them, you can spend one token to choose one of the following options:</p><ul><li><p>You make the attack with advantage.</p></li><li class=\"vertical-card-list-found\"><p>You clear a Stress on an ally within Melee range of the adversary.</p></li><li class=\"vertical-card-list-found\"><p>You add a [[<strong>d8]]</strong> to your damage roll.</p></li></ul><p class=\"Body-Foundation\">When you take a long rest, clear all unspent tokens.</p>",
+    "domain": "bone",
+    "level": 2,
+    "recallCost": 1,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "fivMHdlwuGjVMMcn",
+        "type": "effect",
+        "name": "Strategic Approach",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>After a long rest, place a number of tokens equal to your Knowledge on this card (minimum 1). The first time you move within Close range of an adversary and make an attack against them, you can spend one token to choose one of the following options:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>You make the attack with advantage.</p></li><li class=\"vertical-card-list-found\"><p>You clear a Stress on an ally within Melee range of the adversary.</p></li><li class=\"vertical-card-list-found\"><p>You add a [[<strong>d8]]</strong> to your damage roll.</p></li></ul><p class=\"Body-Foundation\">When you take a long rest, clear all unspent tokens.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "recovery": "longRest"
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751635132081,
+    "modifiedTime": 1751635253271,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!WMaDLVYe5IQu0uu1"
+}

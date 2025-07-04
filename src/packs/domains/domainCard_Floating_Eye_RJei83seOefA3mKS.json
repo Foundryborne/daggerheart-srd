@@ -1,0 +1,61 @@
+{
+  "folder": "u8Yz2hUTaF3N2fFT",
+  "name": "Floating Eye",
+  "type": "domainCard",
+  "_id": "RJei83seOefA3mKS",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Spend a Hope to create a single, small floating orb that you can move anywhere within Very Far range. While this spell is active, you can see through the orb as though you’re looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends. </p>",
+    "domain": "arcana",
+    "level": 2,
+    "recallCost": 0,
+    "type": "spell",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "LbEYKakZOyQAAQQl",
+        "type": "summon",
+        "name": "Floating Eye",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "documentUUID": null
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751634042554,
+    "modifiedTime": 1751634577845,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!RJei83seOefA3mKS"
+}

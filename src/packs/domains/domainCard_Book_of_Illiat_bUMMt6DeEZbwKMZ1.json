@@ -1,0 +1,36 @@
+{
+  "folder": "tqhasjtHBX0F20lN",
+  "name": "Book of Illiat",
+  "type": "domainCard",
+  "_id": "bUMMt6DeEZbwKMZ1",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "domain": "arcana",
+    "level": 1,
+    "recallCost": 0,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751635634977,
+    "modifiedTime": 1751635634977,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!bUMMt6DeEZbwKMZ1"
+}

@@ -1,0 +1,66 @@
+{
+  "folder": "PeeIjbkBv41613yZ",
+  "name": "I See It Coming",
+  "type": "domainCard",
+  "_id": "QnXVqEqw5X4lKpyf",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you’re targeted by an attack made from beyond Melee range, you can <strong>mark a Stress</strong> to roll a [[<strong>d4]]</strong> and gain a bonus to your Evasion equal to the result against the attack.</p>",
+    "domain": "bone",
+    "level": 1,
+    "recallCost": 1,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "y8BalERMfEIzFWhJ",
+        "type": "effect",
+        "name": "Effect",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>When you’re targeted by an attack made from beyond Melee range, you can <strong>mark a Stress</strong> to roll a [[<strong>d4]]</strong> and gain a bonus to your Evasion equal to the result against the attack.</p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [
+          {
+            "type": "stress",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751634878408,
+    "modifiedTime": 1751634970221,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!QnXVqEqw5X4lKpyf"
+}

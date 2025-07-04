@@ -1,0 +1,82 @@
+{
+  "folder": "o7kvw9NRGvDZSce2",
+  "name": "Unleash Chaos",
+  "type": "domainCard",
+  "_id": "RxFlWfPLpMw4ctbz",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>At the beginning of a session, place a number of tokens equal to your Spellcast trait on this card.</p><p></p><p>Make a Spellcast Roll against a target within Far range and spend any number of tokens to channel raw energy from within yourself to unleash against them.</p><p>On a success, roll a number of d10s equal to the tokens you spent and deal that much magic damage to the target. Mark a Stress to replenish this card with tokens (up to your Spellcast trait).</p><p></p><p>At the end of each session, clear all unspent tokens.</p>",
+    "domain": "arcana",
+    "level": 1,
+    "recallCost": 1,
+    "type": "spell",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "T8L1ix2vXdnoTmAO",
+        "type": "attack",
+        "name": "Unleash Chaos",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "damage": {
+          "parts": [],
+          "includeBase": false
+        },
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "save": {
+          "trait": null,
+          "difficulty": 10,
+          "damageMod": "none"
+        },
+        "range": "far"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751633548990,
+    "modifiedTime": 1751633833014,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!RxFlWfPLpMw4ctbz"
+}
