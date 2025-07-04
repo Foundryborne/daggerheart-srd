@@ -1,0 +1,89 @@
+{
+  "folder": "XP3TQDC5RPLweK0O",
+  "name": "Improved Gambeson Armor",
+  "type": "armor",
+  "_id": "GXaaWxg3PY0tBfLS",
+  "img": "icons/equipment/chest/shirt-collared-grey.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 4,
+    "features": [
+      {
+        "value": "flexible",
+        "effectIds": [
+          "0vp1L6BBVwuRPh2W"
+        ],
+        "actionIds": []
+      }
+    ],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 7,
+      "severe": 16
+    },
+    "actions": []
+  },
+  "effects": [
+    {
+      "name": "Flexible",
+      "description": "+1 to Evasion",
+      "changes": [
+        {
+          "key": "system.evasion.bonus",
+          "mode": 2,
+          "value": "1"
+        }
+      ],
+      "_id": "0vp1L6BBVwuRPh2W",
+      "img": "icons/magic/life/heart-cross-blue.webp",
+      "type": "base",
+      "system": {},
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751641925020,
+        "modifiedTime": 1751641925020,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!GXaaWxg3PY0tBfLS.0vp1L6BBVwuRPh2W"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751641889304,
+    "modifiedTime": 1751642004838,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!GXaaWxg3PY0tBfLS"
+}

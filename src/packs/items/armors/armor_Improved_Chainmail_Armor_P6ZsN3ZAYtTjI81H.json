@@ -1,0 +1,89 @@
+{
+  "folder": "XP3TQDC5RPLweK0O",
+  "name": "Improved Chainmail Armor",
+  "type": "armor",
+  "_id": "P6ZsN3ZAYtTjI81H",
+  "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 5,
+    "features": [
+      {
+        "value": "heavy",
+        "effectIds": [
+          "CtgarVJDxQj93G2x"
+        ],
+        "actionIds": []
+      }
+    ],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 11,
+      "severe": 24
+    },
+    "actions": []
+  },
+  "effects": [
+    {
+      "name": "Heavy",
+      "description": "-1 to Evasion",
+      "changes": [
+        {
+          "key": "system.evasion.bonus",
+          "mode": 2,
+          "value": "-1"
+        }
+      ],
+      "_id": "CtgarVJDxQj93G2x",
+      "img": "icons/magic/life/heart-cross-blue.webp",
+      "type": "base",
+      "system": {},
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751642073142,
+        "modifiedTime": 1751642073142,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!P6ZsN3ZAYtTjI81H.CtgarVJDxQj93G2x"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751641989842,
+    "modifiedTime": 1751642073146,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!P6ZsN3ZAYtTjI81H"
+}

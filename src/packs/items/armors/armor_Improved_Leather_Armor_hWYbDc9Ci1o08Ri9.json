@@ -1,0 +1,42 @@
+{
+  "folder": "XP3TQDC5RPLweK0O",
+  "name": "Improved Leather Armor",
+  "type": "armor",
+  "_id": "hWYbDc9Ci1o08Ri9",
+  "img": "icons/equipment/chest/vest-leather-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 4,
+    "features": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 9,
+      "severe": 20
+    },
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751641948540,
+    "modifiedTime": 1751642021779,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!hWYbDc9Ci1o08Ri9"
+}

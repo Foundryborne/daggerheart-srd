@@ -1,0 +1,42 @@
+{
+  "folder": "EMUbztsrPsvgPDh2",
+  "name": "Leather Armor",
+  "type": "armor",
+  "_id": "fa2fvn88LIC8ctoG",
+  "img": "icons/equipment/chest/vest-leather-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "tier": 1,
+    "equipped": false,
+    "baseScore": 3,
+    "features": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 6,
+      "severe": 13
+    },
+    "actions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751641555261,
+    "modifiedTime": 1751641577712,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!fa2fvn88LIC8ctoG"
+}
