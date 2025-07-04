@@ -1,0 +1,141 @@
+{
+  "folder": "2yh8wuYprOyswf0r",
+  "name": "Healing Hands",
+  "type": "domainCard",
+  "_id": "mqQMxT8Zp0044V3F",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "domain": "splendor",
+    "level": 2,
+    "recallCost": 1,
+    "type": "spell",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "cYEE3XqCQOeg0Lsm",
+        "type": "healing",
+        "name": "Healing Hands",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>Make a <strong>Spellcast Roll (13)</strong> and target a creature other than yourself within Melee range. On a success, <strong>mark a Stress</strong> to clear 2 Hit Points or 2 Stress on the target. On a failure, <strong>mark a Stress</strong> to clear a Hit Point or a Stress on the target. You can’t heal the same target again until your next long rest.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "stress",
+            "value": 1,
+            "scalable": true,
+            "step": 1
+          }
+        ],
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "recovery": "longRest"
+        },
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "effects": [
+          {
+            "_id": "wxSbfe8UauUwn7Pz",
+            "onSave": false
+          }
+        ],
+        "healing": {
+          "type": "hitPoints",
+          "resultBased": false,
+          "value": {
+            "multiplier": "result",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": true,
+              "formula": "1"
+            }
+          },
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false
+            }
+          }
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": 13,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": "above",
+            "treshold": 1
+          }
+        },
+        "range": "melee"
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "Healing Hands",
+      "img": "icons/svg/item-bag.svg",
+      "origin": "Compendium.daggerheart-srd.domains.Item.mqQMxT8Zp0044V3F",
+      "transfer": false,
+      "_id": "wxSbfe8UauUwn7Pz",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "daggerheart",
+        "systemVersion": "0.0.1",
+        "createdTime": 1751640473378,
+        "modifiedTime": 1751640473378,
+        "lastModifiedBy": "FoKVSo75fC01UKLZ"
+      },
+      "_key": "!items.effects!mqQMxT8Zp0044V3F.wxSbfe8UauUwn7Pz"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751640219626,
+    "modifiedTime": 1751640473400,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!mqQMxT8Zp0044V3F"
+}

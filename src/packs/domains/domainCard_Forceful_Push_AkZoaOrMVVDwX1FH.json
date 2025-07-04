@@ -1,0 +1,59 @@
+{
+  "folder": "QpOL7jPbMBzH96qR",
+  "name": "Forceful Push",
+  "type": "domainCard",
+  "_id": "AkZoaOrMVVDwX1FH",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p class=\"Body-Foundation\">Make an attack with your primary weapon against a target within Melee range. On a success, you deal damage and knock them back to Close range. On a success with Hope, add a <strong>d6</strong> to your damage roll.</p><p class=\"Body-Foundation\">Additionally, you can <strong>spend a Hope</strong> to make them temporarily <em>Vulnerable</em>.</p>",
+    "domain": "valor",
+    "level": 1,
+    "recallCost": 0,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "IWa13qzRKdlkLme4",
+        "type": "effect",
+        "name": "Forceful Push",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>Make an attack with your primary weapon against a target within Melee range. On a success, you deal damage and knock them back to Close range. On a success with Hope, add a <strong>d6</strong> to your damage roll.</p><p class=\"Body-Foundation\">Additionally, you can <strong>spend a Hope</strong> to make them temporarily <em>Vulnerable</em>.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751640723464,
+    "modifiedTime": 1751640781507,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!AkZoaOrMVVDwX1FH"
+}

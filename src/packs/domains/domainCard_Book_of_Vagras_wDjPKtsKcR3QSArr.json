@@ -1,0 +1,110 @@
+{
+  "folder": "j9i2Q6Z7Z82udHn1",
+  "name": "Book of Vagras",
+  "type": "domainCard",
+  "_id": "wDjPKtsKcR3QSArr",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><em><strong>Runic Lock:</strong></em> Make a <strong>Spellcast Roll (15)</strong> on an object you’re touching that can close (such as a lock, chest, or box). Once per rest on a success, you can lock the object so it can only be opened by creatures of your choice. Someone with access to magic and an hour of time to study the spell can break it.</p><p class=\"Card-Feature\"><em><strong>Arcane Door:</strong></em> When you have no adversaries within Melee range, make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend a Hope</strong> to create a portal from where you are to a point within Far range you can see. It closes once a creature has passed through it.</p><p class=\"Card-Feature\"><em><strong>Reveal:</strong></em> Make a <strong>Spellcast Roll</strong>. If there is anything magically hidden within Close range the roll would succeed against, it is revealed.</p>",
+    "domain": "codex",
+    "level": 2,
+    "recallCost": 2,
+    "type": "grimoire",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "Kjl9pSFIEVoJ6VyP",
+        "type": "effect",
+        "name": "Runic Lock",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>Make a <strong>Spellcast Roll (15)</strong> on an object you’re touching that can close (such as a lock, chest, or box). Once per rest on a success, you can lock the object so it can only be opened by creatures of your choice. Someone with access to magic and an hour of time to study the spell can break it.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": "melee"
+      },
+      {
+        "_id": "byhiPHHx99fIXgWP",
+        "type": "effect",
+        "name": "Arcane Door",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>When you have no adversaries within Melee range, make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend a Hope</strong> to create a portal from where you are to a point within Far range you can see. It closes once a creature has passed through it.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": "far"
+      },
+      {
+        "_id": "BBa5MWWq23gPy313",
+        "type": "effect",
+        "name": "Reveal",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>Make a <strong>Spellcast Roll</strong>. If there is anything magically hidden within Close range the roll would succeed against, it is revealed.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751637278755,
+    "modifiedTime": 1751637443604,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!wDjPKtsKcR3QSArr"
+}

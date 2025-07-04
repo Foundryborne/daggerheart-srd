@@ -1,0 +1,59 @@
+{
+  "folder": "EJoXzO85rG5EiZsh",
+  "name": "Nature’s Tongue",
+  "type": "domainCard",
+  "_id": "JoSLL6Ms01Kqkqyc",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You can speak the language of the natural world. When you want to speak to the plants and animals around you, make an <strong>Instinct Roll (12)</strong>. On a success, they’ll give you the information they know. On a roll with Fear, their knowledge might be limited or come at a cost.</p><p class=\"Body-Foundation\">Additionally, before you make a Spellcast Roll while within a natural environment, you can <strong>spend a Hope</strong> to gain a +2 bonus to the roll.</p>",
+    "domain": "sage",
+    "level": 1,
+    "recallCost": 0,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "ZqsUnZZD0jHHyTDf",
+        "type": "effect",
+        "name": "Nature’s Tongue",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>You can speak the language of the natural world. When you want to speak to the plants and animals around you, make an <strong>Instinct Roll (12)</strong>. On a success, they’ll give you the information they know. On a roll with Fear, their knowledge might be limited or come at a cost.</p><p class=\"Body-Foundation\">Additionally, before you make a Spellcast Roll while within a natural environment, you can <strong>spend a Hope</strong> to gain a +2 bonus to the roll.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751639373111,
+    "modifiedTime": 1751639409488,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!JoSLL6Ms01Kqkqyc"
+}

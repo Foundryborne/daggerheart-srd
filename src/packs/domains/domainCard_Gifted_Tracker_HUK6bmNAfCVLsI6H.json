@@ -1,0 +1,66 @@
+{
+  "folder": "EJoXzO85rG5EiZsh",
+  "name": "Gifted Tracker",
+  "type": "domainCard",
+  "_id": "HUK6bmNAfCVLsI6H",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you’re tracking a specific creature or group of creatures based on signs of their passage, you <strong>can spend any number of Hope</strong> and ask the GM that many questions from the following list.</p><ul><li class=\"vertical-card-list\">What direction did they go?</li><li class=\"vertical-card-list\">How long ago did they pass through?</li><li class=\"vertical-card-list\">What were they doing in this location?</li><li class=\"vertical-card-list\">How many of them were here?</li></ul><p class=\"Body-Foundation\">When you encounter creatures you’ve tracked in this way, gain a +1 bonus to your Evasion against them.</p>",
+    "domain": "sage",
+    "level": 1,
+    "recallCost": 0,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "cJd6shyMkUPzpsN5",
+        "type": "effect",
+        "name": "Gifted Tracker",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>When you’re tracking a specific creature or group of creatures based on signs of their passage, you <strong>can spend any number of Hope</strong> and ask the GM that many questions from the following list.</p><ul class=\"\"><li class=\"vertical-card-list\">What direction did they go?</li><li class=\"vertical-card-list\">How long ago did they pass through?</li><li class=\"vertical-card-list\">What were they doing in this location?</li><li class=\"vertical-card-list\">How many of them were here?</li></ul><p class=\"Body-Foundation\">When you encounter creatures you’ve tracked in this way, gain a +1 bonus to your Evasion against them.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 1,
+            "scalable": true,
+            "step": 1
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751639305674,
+    "modifiedTime": 1751639356729,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!HUK6bmNAfCVLsI6H"
+}

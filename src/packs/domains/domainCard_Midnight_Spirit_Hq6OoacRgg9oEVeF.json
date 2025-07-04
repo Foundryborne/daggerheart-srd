@@ -1,0 +1,61 @@
+{
+  "folder": "Abn46nCQst6kpGeA",
+  "name": "Midnight Spirit",
+  "type": "domainCard",
+  "_id": "Hq6OoacRgg9oEVeF",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><strong>Spend a Hope</strong> to summon a humanoid-sized spirit that can move or carry things for you until your next rest.</p><p class=\"Body-Foundation\">You can also send it to attack an adversary. When you do, make a <strong>Spellcast Roll</strong> against a target within Very Far range. On a success, the spirit moves into Melee range with that target. Roll a number of <strong>d6s</strong> equal to your Spellcast trait and deal that much magic damage to the target. The spirit then dissipates. You can only have one spirit at a time.</p>",
+    "domain": "midnight",
+    "level": 2,
+    "recallCost": 1,
+    "type": "spell",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "RAmD9rfy6X3tboHQ",
+        "type": "summon",
+        "name": "Midnight Spirit",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p><strong>Spend a Hope</strong> to summon a humanoid-sized spirit that can move or carry things for you until your next rest.</p><p class=\"Body-Foundation\">You can also send it to attack an adversary. When you do, make a <strong>Spellcast Roll</strong> against a target within Very Far range. On a success, the spirit moves into Melee range with that target. Roll a number of <strong>d6s</strong> equal to your Spellcast trait and deal that much magic damage to the target. The spirit then dissipates. You can only have one spirit at a time.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "documentUUID": null
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751639091719,
+    "modifiedTime": 1751639135121,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!Hq6OoacRgg9oEVeF"
+}

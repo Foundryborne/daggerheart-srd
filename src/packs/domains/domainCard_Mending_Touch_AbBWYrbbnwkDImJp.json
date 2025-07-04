@@ -1,0 +1,66 @@
+{
+  "folder": "LlWJaBZOKh0Ot2kD",
+  "name": "Mending Touch",
+  "type": "domainCard",
+  "_id": "AbBWYrbbnwkDImJp",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "domain": "splendor",
+    "level": 1,
+    "recallCost": 1,
+    "type": "spell",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "cLVKBsg4Sbtl44DU",
+        "type": "effect",
+        "name": "Mending Touch",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<div class=\"card-title MuiBox-root css-0\"><p class=\"MuiTypography-root MuiTypography-body1 card-title-text css-ye98iv\">Mending Touch</p></div>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 2,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "range": "melee"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751639995912,
+    "modifiedTime": 1751640060471,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!AbBWYrbbnwkDImJp"
+}

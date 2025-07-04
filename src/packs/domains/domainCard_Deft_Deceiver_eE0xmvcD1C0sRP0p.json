@@ -1,0 +1,66 @@
+{
+  "folder": "nVCKcZkcoEivYJaF",
+  "name": "Deft Deceiver",
+  "type": "domainCard",
+  "_id": "eE0xmvcD1C0sRP0p",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><strong>Spend a Hope</strong> to gain advantage on a roll to deceive or trick someone into believing a lie you tell them.</p>",
+    "domain": "grace",
+    "level": 1,
+    "recallCost": 0,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "KUcKi5JiSs5BG0wz",
+        "type": "effect",
+        "name": "Deft Deceiver",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p><strong>Spend a Hope</strong> to gain advantage on a roll to deceive or trick someone into believing a lie you tell them.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751637466415,
+    "modifiedTime": 1751637495905,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!eE0xmvcD1C0sRP0p"
+}

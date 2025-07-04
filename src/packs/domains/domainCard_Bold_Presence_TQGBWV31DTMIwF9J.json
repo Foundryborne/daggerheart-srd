@@ -1,0 +1,66 @@
+{
+  "folder": "pk4xXE8D3vTawrqj",
+  "name": "Bold Presence",
+  "type": "domainCard",
+  "_id": "TQGBWV31DTMIwF9J",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you make a Presence Roll, you can <strong>spend a Hope</strong> to add your Strength to the roll.</p><p class=\"Body-Foundation\">Additionally, once per rest when you would gain a condition, you can describe how your bold presence aids you in the situation and avoid gaining the condition.</p>",
+    "domain": "valor",
+    "level": 2,
+    "recallCost": 0,
+    "type": "ability",
+    "foundation": false,
+    "inVault": false,
+    "actions": [
+      {
+        "_id": "oGsSuzTVYEK4nQNG",
+        "type": "effect",
+        "name": "Bold Presence",
+        "img": "icons/svg/item-bag.svg",
+        "systemPath": "actions",
+        "description": "<p>When you make a Presence Roll, you can <strong>spend a Hope</strong> to add your Strength to the roll.</p><p class=\"Body-Foundation\">Additionally, once per rest when you would gain a condition, you can describe how your bold presence aids you in the situation and avoid gaining the condition.</p>",
+        "chatDisplay": true,
+        "actionType": "reaction",
+        "cost": [
+          {
+            "type": "hope",
+            "value": 1,
+            "scalable": false,
+            "step": null
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null
+        },
+        "effects": [],
+        "target": {
+          "type": null,
+          "amount": null
+        },
+        "range": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FoKVSo75fC01UKLZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "daggerheart",
+    "systemVersion": "0.0.1",
+    "createdTime": 1751640946992,
+    "modifiedTime": 1751640992152,
+    "lastModifiedBy": "FoKVSo75fC01UKLZ"
+  },
+  "_key": "!items!TQGBWV31DTMIwF9J"
+}
